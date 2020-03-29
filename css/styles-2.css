@@ -22,11 +22,14 @@ TABLE OF CONTENT
 2. Hero
 3. Info
 4. Brends
+5. Player
+6. Services
 -------------------------------------------*/
 
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
 
 /*Default Styles*/
 @import url("default.css");
@@ -99,6 +102,9 @@ nav{
 	}
 	.burger{
 		display: block;
+	}
+	nav{
+		justify-content: space-between;
 	}
 }
 .nav-active{
@@ -371,6 +377,7 @@ nav{
 	color: #000000;
 	margin-bottom: 20px;
 }
+
 /*-----------------------------------------
 4. Brends
 -------------------------------------------*/
@@ -379,3 +386,112 @@ nav{
 	width: auto !important;
 	display: initial !important;
 }
+
+/*-----------------------------------------
+5. Player
+-------------------------------------------*/
+#player{
+	background-image: url("../img/content/player-layer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.player-text h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14.413px;
+	line-height: 19px;
+	letter-spacing: 0.055em;
+	color: #3C91A9;
+}
+.player-text h2{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 41.1799px;
+	line-height: 54px;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+.player-text h2 span{
+	font-weight: bold;
+}
+.player-text p{
+	margin-top: 15px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16.472px;
+	line-height: 25px;
+	letter-spacing: 0.03em;
+	color: #000000;
+}
+.video-element {
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+.video-element iframe,
+.video-element__poster{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-element__poster {
+	background-image: url("../img/content/player-cover.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.video-element__poster p{
+	font-family: 'Reenie Beanie', cursive;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 27px;
+	color: #FFFFFF;
+	transform: rotate(-45deg);
+    position: absolute;
+    right: 15%;
+    top: 20%;
+}
+.btn-play{	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(1);
+	cursor: pointer;
+	animation: playbtn 2s ease;
+  	animation-iteration-count: infinite;
+	transform-origin: 0% 0%;
+}
+
+@keyframes playbtn{
+	0%{
+		opacity: 0.8;
+		transform: scale(1) translate(-50%, -50%);
+	}
+	50%{
+		opacity: 1;
+		transform: scale(1.2) translate(-50%, -50%);
+	}
+	100%{
+		opacity: 0.8;
+		transform: scale(1) translate(-50%, -50%);
+	}
+}
+
+@media only screen and (max-width:767px){
+	#player{
+		padding-top: 0;
+	}
+	.player-text{
+		margin-top: 40px;
+	}
+}
+
+/*-----------------------------------------
+6. Services
+-------------------------------------------*/

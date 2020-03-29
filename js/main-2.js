@@ -12,6 +12,7 @@ TABLE OF CONTENT
 
 1. Header
 2. Brends
+3. Player
 ==============================================
 [END] TABLE OF CONTENT
 ==============================================
@@ -20,6 +21,7 @@ TABLE OF CONTENT
 "use strict";
 /*-----------------------------------------
 1. Header
+2. Player
 -------------------------------------------*/
 /*Nav Bar*/
  const navSlide = () => {
@@ -59,6 +61,7 @@ TABLE OF CONTENT
 /*-----------------------------------------
 2. Brends
 -------------------------------------------*/
+
 /*owl-carousel brends*/
 $(document).ready(function() {
  
@@ -84,4 +87,18 @@ $(document).ready(function() {
     }
   })
  
+});
+
+/*-----------------------------------------
+3. Player
+-------------------------------------------*/
+
+var templateElement = document.getElementById('video');
+var template = templateElement.innerHTML;
+var posterElement = document.getElementById('video-poster');
+var videoElement = document.getElementById('video-element');
+
+posterElement.addEventListener('click', function() {
+  videoElement.removeChild(posterElement);
+  videoElement.innerHTML += template;
 });
