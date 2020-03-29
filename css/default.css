@@ -67,13 +67,11 @@ dl, ol, ul {
 -------------------------------------------*/
 .bluebg{
   background: #1192EE;
-  transition: all 2s;
-  border: 0;
+  transition: all 0.3s;
 }
 .bluebg:hover{
-  background-color: transparent;
-  border: 3px solid #1192ee;
-  transition: all 2s;
+  background-color: #2f2f2f;
+  transition: all 0.3s;
 }
 .textcolor{
   color: #1192EE !important;

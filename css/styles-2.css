@@ -21,6 +21,7 @@ TABLE OF CONTENT
 1. Header
 2. Hero
 3. Info
+4. Brends
 -------------------------------------------*/
 
 /*Fonts*/
@@ -261,7 +262,6 @@ nav{
     background-repeat: no-repeat;
     background-position: center right;
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 .infobg{
 	background-image: url("../img/content/group-489.png");
@@ -370,4 +370,12 @@ nav{
 	letter-spacing: 0.03em;
 	color: #000000;
 	margin-bottom: 20px;
+}
+/*-----------------------------------------
+4. Brends
+-------------------------------------------*/
+
+.brends-item img{
+	width: auto !important;
+	display: initial !important;
 }

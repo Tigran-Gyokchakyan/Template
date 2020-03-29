@@ -112,6 +112,7 @@ TABLE OF CONTENT
 	letter-spacing: 0.055em;
 	color: #000000;
 	transition: all 1s;
+	margin-bottom: 40px;
 }
 .port-btn-style:hover{
 	color: #fff;
@@ -613,7 +614,10 @@ nav{
     left: 50%;
     transform: translateX(-50%);
 }
-
+.tabs-boxs{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
 /*-----------------------------------------
 9. Demo
 -------------------------------------------*/
@@ -675,8 +679,7 @@ nav{
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #1192EE;
-    width: 15px;
-    height: 15px;
+    transform: scale(1.8);
 }
 .owl-item{
 	opacity: 0;
@@ -808,14 +811,8 @@ nav{
 	display: flex;
 	justify-content: center;
 }
-.iconhover{
-	transform: rotate(-360deg);
-	transition: all 2s;
-}
-.iconhover:hover{
-	transform: rotate(360deg);
-	transition: all 2s;
-}
+
+
 .social-icon li{
 	margin-right: 15px;
   width: 30px;
@@ -823,6 +820,11 @@ nav{
   background-color: #1192EE;
   border-radius: 50%;
   line-height: 30px;
+  transition: all 0.3s;
+}
+.social-icon li:hover{
+  background-color: #2f2f2f;
+  transition: all 0.3s;
 }
 .social-icon li a{
 	color: #fff;
@@ -866,7 +868,7 @@ nav{
 	position: relative;
 }
 .contact-img-z1{
-		position: absolute;
+	position: absolute;
     top: 30%;
     z-index: 1;
     left: 25%;
@@ -935,7 +937,17 @@ nav{
 	height: 56px;
 	border-radius: 0px 3px 3px 0px;
 }
-
+@media screen and (max-width: 768px) {
+	.send-req span{
+		display: none;
+	}
+	.send-req{
+		width: 60px;
+	}
+	.news-btn-send {
+    	margin-right: 0px;
+	}
+}
 /*-----------------------------------------
 16. Footer
 -------------------------------------------*/
