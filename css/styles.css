@@ -349,13 +349,13 @@ nav{
 -------------------------------------------*/
 #innovative{
 	width: 100%;
-	padding-top: 45px;
+	padding-top: 80px;
 	padding-bottom: 150px;
 	margin-bottom: 50px;
-	background: url('../img/content/innovative-bg.png');
+	/*background: url('../img/content/innovative-bg.png');
 	background-size: contain;
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 .innovative-title{
 	font-style: normal;
@@ -370,11 +370,78 @@ nav{
 .innvlist li i{
 	margin-right: 20px;
 }
+
+.bg-big{
+	position: relative;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 500px;
+	height: 500px;
+	background: #E7F4FD;
+	border-radius: 50%;
+}
+.bg-big img{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+.bg-medium{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 335px;
+	height: 335px;
+	background: #A7D6F8;
+	border-radius: 50%;
+}
+.bg-medium img{
+    position: absolute;
+    top: 70%;
+}
+.bg-smoll{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 154px;
+	height: 154px;
+	background: #128FE9;
+	border-radius: 50%;
+}
+.bg-smoll img{
+    position: absolute;
+    right: -90%;
+    top: 5%;
+}
+@media screen and (max-width: 992px) {
+	#innovative{
+	    padding-bottom: 15px;
+	}
+}
 @media screen and (max-width: 768px) {
 	#innovative{
 		text-align: center;
-  	padding-top: 15px;
-      padding-bottom: 15px;
+	  	padding-top: 15px;
+	    padding-bottom: 15px;
+	}
+	.bg-big{
+		width: 450px;
+		height: 450px;
+	}
+	.bg-medium{
+		width: 320px;
+		height: 320px;
+	}
+	.bg-smoll{
+		width: 154px;
+		height: 154px;
+	}
+	.bg-medium img {
+	    position: absolute;
+	    top: 70%;
+	    left: 10%;
 	}
 }
 
@@ -877,7 +944,7 @@ nav{
 	margin-bottom: 40px;
 }
 .sendbtn:hover{
-	color: #1192EE;
+	color: #fff;
 }
 @media screen and (max-width: 768px) {
 	.form-control {
