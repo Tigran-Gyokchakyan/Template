@@ -1,0 +1,373 @@
+/*
+	Project Name : 
+	Author Company : SpecThemes
+	Project Date: 25 Mar, 2020
+	Template Developer: vsafaryan50@gmail.com
+*/
+
+/*
+==============================================
+TABLE OF CONTENT
+==============================================
+
+0. Imports
+==============================================
+[END] TABLE OF CONTENT
+==============================================
+*/
+
+/*-----------------------------------------
+0. Imports
+1. Header
+2. Hero
+3. Info
+-------------------------------------------*/
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+
+/*Default Styles*/
+@import url("default.css");
+
+/*-----------------------------------------
+1. Header
+-------------------------------------------*/
+
+header {
+	transition: all 1s;
+    width: 100%;
+    z-index: 10;
+}
+nav{
+	transition: all 0.5s;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: transparent;
+	height: 80px;
+}
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+}
+@media screen and (max-width: 1300px) {
+	.nav-links{
+		width: 60%;
+	}
+}
+.nav-links a{
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	letter-spacing: 0.055em;
+	color: #000000;
+}
+.burger{
+	display: none;
+	cursor: pointer;
+}
+.burger div{
+	width: 25px;
+	height: 2px;
+	margin: 5px;
+	background-color: #000;
+	transition: all 0.3s ease;
+}
+@media screen and (max-width: 768px) {
+	.nav-links{
+		position: absolute;
+		right: 0;
+		top: 80px;
+	    height: calc(100vh - 120px);
+	    height: -moz-calc(100vh - 120px);
+	    height: -webkit-calc(100vh - 80px);
+    	width: 40%;
+   		background-color: transparent;
+   		display: flex;
+   		flex-direction: column;
+   		align-items: center;
+   		transform: translateX(100%);
+   		transition: transform 0.5s ease-in;
+	}
+	.nav-links li{
+		opacity: 0;
+	}
+	.burger{
+		display: block;
+	}
+}
+.nav-active{
+	transform: translateX(0%);
+	background-color: #fff;
+}
+.fixedColor div nav{
+	height: 80px;
+	transition: all 0.5s;
+}
+.fixedColor{
+	transition: all 1s;
+	background-color: rgba(0, 0, 0, 0.90);
+}
+@keyframes navLinkFade{
+	from{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+.toggle .line1{
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+	opacity: 0;
+}
+.toggle .line3{
+	transform: rotate(45deg) translate(-5px,-6px);
+}
+.linkbtn{
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+    padding: 8px 20px;
+}
+.fixed{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 4px 4px 20px rgba(205, 192, 192, 1);
+}
+/*-----------------------------------------
+2. Hero
+-------------------------------------------*/
+#hero{
+	background-image: url("../img/content/layer-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+	background-color: #F7F4FB;
+	position: relative;
+}
+.heroinfo{
+	margin-top: 280px;
+	margin-bottom: 250px;
+}
+.herotitle{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 45px;
+	color: #000000;
+}
+.herotitle span{
+    position: relative;
+    z-index: 1;
+}
+.herotitle span:after {
+    background: #FAD9ED;
+    transform: rotate(-73deg);
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    z-index: -1;
+    left: -20%;
+    top: 20%;
+}
+.herop{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 0.03em;
+	color: #000000;
+}
+.btnstyle{
+	margin-top: 20px;
+	border: 1px solid #000000;
+	border-radius: 100px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 21px;
+	color: #000000;
+    padding: 8px 60px;
+}
+.line{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.heropic{
+	margin-top: 70px;
+	background-image: url("../img/content/hero-elips.png");
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    background-size: contain;
+
+}
+.elips-1{
+	position: absolute;
+    left: 40%;
+    top: 65%;
+}
+.elips-2{
+	position: absolute;
+    left: 55%;
+    top: 75%;
+}
+@media only screen and (max-width:1200px){
+	.elipse-pos{
+		display: none;
+	}
+	.myrow{
+    	align-items: center;
+	}
+	.heroinfo{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.heropic{
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (max-width:991px){
+	.herotitle {
+   		 font-size: 30px;
+	}
+}
+@media only screen and (max-width:767px){
+	#hero {
+	    padding-bottom: 50px;
+	}
+	.heroinfo{
+		text-align: center;
+    	margin-top: 25px;
+	}
+}
+
+
+/*-----------------------------------------
+3. Info
+-------------------------------------------*/
+
+#info{
+	background-image: url("../img/content/mask-info.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.infobg{
+	background-image: url("../img/content/group-489.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+.infobox{
+	padding: 35px;
+	background: #FFFFFF;
+	box-shadow: 4px 4px 20px rgba(205, 192, 192, 0.2);
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.infobox h2{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 0.03em;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.infobox p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	color: #000000;
+}
+.back{
+	position: relative;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-bottom: 50px;
+}
+.cl1{
+	background: #F9D6EE;
+}
+.cl2{
+	background: #CCEEF0;
+}
+.cl3{
+	background: #D1BDF4;
+}
+.fcl1{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: #FFB3E7;
+    float: right;
+    margin-bottom: 20px;
+}
+.fcl2{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: #92CBCE;
+    float: right;
+    margin-bottom: 20px;
+}
+.fcl3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: #D1BDF4;
+    float: right;
+    margin-bottom: 20px;
+}
+.back img{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.infoboxlg{
+	padding: 35px;
+}
+.infoboxlg h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 19px;
+	letter-spacing: 0.055em;
+	color: #7A2A5F;
+	margin-bottom: 20px;
+}
+.infoboxlg h2{
+	font-style: normal;
+	font-weight: 200;
+	font-size: 40px;
+	line-height: 53px;
+	letter-spacing: 0.02em;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.infoboxlg h2 span{
+	font-weight: bold;
+}
+.infoboxlg p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	color: #000000;
+	margin-bottom: 20px;
+}
