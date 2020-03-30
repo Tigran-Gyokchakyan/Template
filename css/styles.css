@@ -1,5 +1,5 @@
 /*
-	Project Name : 
+	Project Name :
 	Author Company : SpecThemes
 	Project Date: 25 Mar, 2020
 	Template Developer: vsafaryan50@gmail.com
@@ -32,52 +32,52 @@ TABLE OF CONTENT
 ==============================================
 */
 
-
 /*-----------------------------------------
 0. Imports
 -------------------------------------------*/
+
 /*Fonts*/
+
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400i,500,500i,700,700i,900,900i&display=swap');
 
 /*Default Styles*/
+
 @import url("default.css");
-
 ::-webkit-input-placeholder {
-  font-family: 'Red Hat Display', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.07em;
-  color: rgba(0, 0, 0, 0.25);
-  padding-left: 20px;
+	font-family: 'Red Hat Display', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.07em;
+	color: rgba(0, 0, 0, 0.25);
+	padding-left: 20px;
 }
-
-:-ms-input-placeholder { 
-  font-family: 'Red Hat Display', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.07em;
-  color: rgba(0, 0, 0, 0.25);
-  padding-left: 20px;
+:-ms-input-placeholder {
+	font-family: 'Red Hat Display', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.07em;
+	color: rgba(0, 0, 0, 0.25);
+	padding-left: 20px;
 }
-
 ::placeholder {
-  font-family: 'Red Hat Display', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.07em;
-  color: rgba(0, 0, 0, 0.25);
-  padding-left: 20px;
+	font-family: 'Red Hat Display', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.07em;
+	color: rgba(0, 0, 0, 0.25);
+	padding-left: 20px;
 }
 /*-----------------------------------------
 1. Headings
 -------------------------------------------*/
-.s-title{
+
+.s-title {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 30px;
@@ -85,7 +85,7 @@ TABLE OF CONTENT
 	letter-spacing: 0.01em;
 	color: #000000;
 }
-.s-subtitle{
+.s-subtitle {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -94,17 +94,17 @@ TABLE OF CONTENT
 	letter-spacing: 0.055em;
 	color: rgba(0, 0, 0, 0.5);
 }
-.btnstyle{
+.btnstyle {
 	color: #fff;
 	border-radius: 5px;
 	height: 45px;
 }
-.port-btn-style{
+.port-btn-style {
 	border: 1px solid #000000;
 	border-radius: 5px;
 	height: 45px;
 	margin-top: 20px;
-	background-color: transparent; 
+	background-color: transparent;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
@@ -114,23 +114,25 @@ TABLE OF CONTENT
 	transition: all 1s;
 	margin-bottom: 40px;
 }
-.port-btn-style:hover{
+.port-btn-style:hover {
 	color: #fff;
-	background-color: #000; 
+	background-color: #000;
 	border: 1px solid #fff;
 	transition: all 1s;
 }
 /*-----------------------------------------
 2. Header
 -------------------------------------------*/
+
 header {
 	transition: all 1s;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
 /*Nav Bar*/
-nav{
+
+nav {
 	transition: all 0.5s;
 	display: flex;
 	justify-content: space-between;
@@ -138,28 +140,28 @@ nav{
 	background-color: transparent;
 	height: 120px;
 }
-.nav-links{
+.nav-links {
 	display: flex;
 	justify-content: space-around;
 	width: 60%;
 }
 @media screen and (max-width: 1300px) {
-	.nav-links{
+	.nav-links {
 		width: 60%;
 	}
 }
-.nav-links a{
+.nav-links a {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	letter-spacing: 0.055em;
 	color: #fff;
 }
-.burger{
+.burger {
 	display: none;
 	cursor: pointer;
 }
-.burger div{
+.burger div {
 	width: 25px;
 	height: 2px;
 	margin: 5px;
@@ -167,89 +169,89 @@ nav{
 	transition: all 0.3s ease;
 }
 @media screen and (max-width: 768px) {
-	.nav-links{
+	.nav-links {
 		position: absolute;
 		right: 0;
 		top: 80px;
-	    height: calc(100vh - 120px);
-	    height: -moz-calc(100vh - 120px);
-	    height: -webkit-calc(100vh - 80px);
-    	width: 40%;
-   		background-color: transparent;
-   		display: flex;
-   		flex-direction: column;
-   		align-items: center;
-   		transform: translateX(100%);
-   		transition: transform 0.5s ease-in;
+		height: calc(100vh - 120px);
+		height: -moz-calc(100vh - 120px);
+		height: -webkit-calc(100vh - 80px);
+		width: 40%;
+		background-color: transparent;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
 	}
-	.nav-links li{
+	.nav-links li {
 		opacity: 0;
 	}
-	.burger{
+	.burger {
 		display: block;
 	}
 }
-.nav-active{
+.nav-active {
 	transform: translateX(0%);
 	background-color: rgba(0, 0, 0, 0.90);
 }
-.fixedColor div nav{
+.fixedColor div nav {
 	height: 80px;
 	transition: all 0.5s;
 }
-.fixedColor{
+.fixedColor {
 	transition: all 1s;
 	background-color: rgba(0, 0, 0, 0.90);
 }
-@keyframes navLinkFade{
-	from{
+@keyframes navLinkFade {
+	from {
 		opacity: 0;
 		transform: translateX(50px);
 	}
-	to{
+	to {
 		opacity: 1;
 		transform: translateX(0px);
 	}
 }
-.toggle .line1{
+.toggle .line1 {
 	transform: rotate(-45deg) translate(-5px, 6px);
 }
-.toggle .line2{
+.toggle .line2 {
 	opacity: 0;
 }
-.toggle .line3{
-	transform: rotate(45deg) translate(-5px,-6px);
+.toggle .line3 {
+	transform: rotate(45deg) translate(-5px, -6px);
 }
-.linkbtn{
+.linkbtn {
 	border: 1px solid #E5E5E5;
 	border-radius: 5px;
-    padding: 8px 20px;
+	padding: 8px 20px;
 }
-
 /*-----------------------------------------
 3. Hero
 -------------------------------------------*/
-#hero{
+
+#hero {
 	height: 100vh;
 	width: 100%;
 	background: url('../img/content/hero-bg.png');
 	background-size: cover;
 	background-position: center;
 }
-#hero .container{
+#hero .container {
 	height: 100vh;
 }
-.hero-overlay{
+.hero-overlay {
 	position: absolute;
 	top: 0;
 	z-index: 0;
 	height: 100vh;
-	width: 100%;	
+	width: 100%;
 	background: url('../img/content/hero-overlay.png');
 	background-size: cover;
 	background-position: center;
 }
-.herobox p{
+.herobox p {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -257,7 +259,7 @@ nav{
 	letter-spacing: 0.055em;
 	color: #FFF;
 }
-.herobox h1{
+.herobox h1 {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 60px;
@@ -265,8 +267,7 @@ nav{
 	letter-spacing: 0.01em;
 	color: #FFF;
 }
-
-.scroll{
+.scroll {
 	position: absolute;
 	bottom: 80px;
 	left: 50%;
@@ -275,7 +276,7 @@ nav{
 	text-align: center;
 	color: #fff;
 }
-.scroll p{
+.scroll p {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
@@ -283,45 +284,46 @@ nav{
 	letter-spacing: 0.055em;
 	color: #FFFFFF;
 }
-.scroll a img{
+.scroll a img {
 	cursor: pointer;
 	animation: arrownim 2s ease;
-  	animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
 }
-@keyframes arrownim{
-	from{
+@keyframes arrownim {
+	from {
 		opacity: 1;
 		transform: translateY(0px);
 	}
-	to{
+	to {
 		opacity: 0.8;
 		transform: translateY(20px);
 	}
 }
 @media screen and (max-width: 768px) {
-	.herobox{
+	.herobox {
 		text-align: center;
 	}
 	.herobox p {
-	    font-size: 16px;
+		font-size: 16px;
 	}
 	.herobox h1 {
-	    font-size: 36px;
+		font-size: 36px;
 	}
 }
 /*-----------------------------------------
 4. About
 -------------------------------------------*/
-.aboutinfo{
+
+.aboutinfo {
 	text-align: center;
 }
-.infobox{
+.infobox {
 	text-align: center;
 	background: #FFFFFF;
 	box-shadow: 4px 4px 4px rgba(206, 203, 203, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.05);
 	border-radius: 5px;
 }
-.infobox h4{
+.infobox h4 {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
@@ -329,7 +331,7 @@ nav{
 	letter-spacing: 0.01em;
 	color: #000000;
 }
-.infobox p{
+.infobox p {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -340,14 +342,14 @@ nav{
 }
 @media screen and (max-width: 768px) {
 	.aboutinfo h3 {
-	    font-size: 22px;
+		font-size: 22px;
 	}
 }
-
 /*-----------------------------------------
 5. Innovative
 -------------------------------------------*/
-#innovative{
+
+#innovative {
 	width: 100%;
 	padding-top: 80px;
 	padding-bottom: 150px;
@@ -357,110 +359,109 @@ nav{
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.innovative-title{
+.innovative-title {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 30px;
 	letter-spacing: 0.025em;
 }
-.innvlist li{
+.innvlist li {
 	margin-bottom: 10px;
 }
-.innvlist li i{
+.innvlist li i {
 	margin-right: 20px;
 }
-
-.bg-big{
+.bg-big {
 	position: relative;
 	top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	left: 50%;
+	transform: translate(-50%, -50%);
 	width: 500px;
 	height: 500px;
 	background: #E7F4FD;
 	border-radius: 50%;
 }
-.bg-big img{
-    position: absolute;
-    top: 5%;
-    left: 10%;
+.bg-big img {
+	position: absolute;
+	top: 5%;
+	left: 10%;
 }
-.bg-medium{
+.bg-medium {
 	position: absolute;
 	top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	left: 50%;
+	transform: translate(-50%, -50%);
 	width: 335px;
 	height: 335px;
 	background: #A7D6F8;
 	border-radius: 50%;
 }
-.bg-medium img{
-    position: absolute;
-    top: 70%;
+.bg-medium img {
+	position: absolute;
+	top: 70%;
 }
-.bg-smoll{
+.bg-smoll {
 	position: absolute;
 	top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	left: 50%;
+	transform: translate(-50%, -50%);
 	width: 154px;
 	height: 154px;
 	background: #128FE9;
 	border-radius: 50%;
 }
-.bg-smoll img{
-    position: absolute;
-    right: -90%;
-    top: 5%;
+.bg-smoll img {
+	position: absolute;
+	right: -90%;
+	top: 5%;
 }
 @media screen and (max-width: 992px) {
-	#innovative{
-	    padding-bottom: 15px;
+	#innovative {
+		padding-bottom: 15px;
 	}
 }
 @media screen and (max-width: 768px) {
-	#innovative{
+	#innovative {
 		text-align: center;
-	  	padding-top: 15px;
-	    padding-bottom: 15px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
-	.bg-big{
+	.bg-big {
 		width: 450px;
 		height: 450px;
 	}
-	.bg-medium{
+	.bg-medium {
 		width: 320px;
 		height: 320px;
 	}
-	.bg-smoll{
+	.bg-smoll {
 		width: 154px;
 		height: 154px;
 	}
 	.bg-medium img {
-	    position: absolute;
-	    top: 70%;
-	    left: 10%;
+		position: absolute;
+		top: 70%;
+		left: 10%;
 	}
 }
-
 /*-----------------------------------------
 6. Services
 -------------------------------------------*/
-.servicesboxs{
+
+.servicesboxs {
 	padding-left: 25px;
 	padding-right: 25px;
 	margin-bottom: 35px;
 }
-.services-title{
+.services-title {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 27px;
 	color: #000000;
 }
-.services-subtitle{
+.services-subtitle {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
@@ -472,69 +473,69 @@ nav{
 /*-----------------------------------------
 7. Prices
 -------------------------------------------*/
-#prices{
+
+#prices {
 	background: #F9F9F9;
-  padding-bottom: 50px;
+	padding-bottom: 50px;
 }
-.pricing-item{
+.pricing-item {
 	background: #FFFFFF;
 	box-shadow: 0px 4px 4px rgba(221, 215, 215, 0.12);
 	border-radius: 5px;
 	height: 490px;
-  margin-bottom: 50px;
+	margin-bottom: 50px;
 }
-.priceing-cheked{
+.priceing-cheked {
 	position: relative;
-  padding-top: 55px;
+	padding-top: 55px;
 	background: #FFFFFF;
 	box-shadow: 0px 4px 4px rgba(221, 215, 215, 0.12);
 	border-radius: 5px;
 	height: 606px;
 }
-
 .checked-border:before,
-.checked-border:after{
+.checked-border:after {
 	content: '';
-	position:absolute;
+	position: absolute;
 	width: 30%;
 	height: 35%;
 }
-.checked-border:before{
+.checked-border:before {
 	bottom: 0;
-  left: 0;
-  border-bottom: 2px solid #1192EE;
-  border-left: 2px solid #1192EE;
-
+	left: 0;
+	border-bottom: 2px solid #1192EE;
+	border-left: 2px solid #1192EE;
 }
-.checked-border:after{
+.checked-border:after {
 	bottom: 0;
-  right: 0;
-	border-bottom: 2px solid #1192EE;;
-	border-right: 2px solid #1192EE;;
-
+	right: 0;
+	border-bottom: 2px solid #1192EE;
+	;
+	border-right: 2px solid #1192EE;
+	;
 }
 .priceing-cheked:before,
-.priceing-cheked:after{
+.priceing-cheked:after {
 	content: '';
-	position:absolute;
+	position: absolute;
 	width: 30%;
 	height: 35%;
 }
-.priceing-cheked:before{
+.priceing-cheked:before {
 	top: 0;
-  left: 0;
-  border-top: 2px solid #1192EE;
-  border-left: 2px solid #1192EE;
-
+	left: 0;
+	border-top: 2px solid #1192EE;
+	border-left: 2px solid #1192EE;
 }
-.priceing-cheked:after{
+.priceing-cheked:after {
 	top: 0;
-  right: 0;
-	border-top: 2px solid #1192EE;;
-	border-right: 2px solid #1192EE;;
-
+	right: 0;
+	border-top: 2px solid #1192EE;
+	;
+	border-right: 2px solid #1192EE;
+	;
 }
-.pricing-plan{
+.pricing-plan {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
@@ -543,18 +544,18 @@ nav{
 	letter-spacing: 0.05em;
 	color: #000000;
 }
-.pricing-amout{
+.pricing-amout {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 35px;
 	line-height: 52px;
 	text-align: center;
 	letter-spacing: 0.05em;
-	color: #000000;    
+	color: #000000;
 	position: relative;
-  top: -50px;
+	top: -50px;
 }
-.amout{
+.amout {
 	font-style: normal;
 	font-weight: 900;
 	font-size: 92px;
@@ -562,10 +563,10 @@ nav{
 	text-align: center;
 	letter-spacing: 0.05em;
 	color: #000000;
-  position: relative;
-  top: 50px;
+	position: relative;
+	top: 50px;
 }
-.pricing-info{
+.pricing-info {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 12px;
@@ -574,14 +575,14 @@ nav{
 	letter-spacing: 0.05em;
 	color: #000000;
 }
-.listbox{
+.listbox {
 	height: 165px;
 	max-height: 250px;
 	width: 100%;
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
-.pricing-item-list{
+.pricing-item-list {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -589,12 +590,12 @@ nav{
 	text-align: center;
 	letter-spacing: 0.05em;
 	color: #000000;
-  width: 100%;
+	width: 100%;
 }
-.pricing-item-list li{
+.pricing-item-list li {
 	margin-bottom: 10px;
 }
-.pricing-btn{
+.pricing-btn {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -602,20 +603,21 @@ nav{
 	letter-spacing: 0.01em;
 	color: #000000;
 	position: absolute;
-	bottom: 70px; 
-  left: 50%;
-  transform: translateX(-50%);
+	bottom: 70px;
+	left: 50%;
+	transform: translateX(-50%);
 }
-.checked-btn{
-	bottom: 30px; 
+.checked-btn {
+	bottom: 30px;
 }
 /*-----------------------------------------
 8. Portfolio
 -------------------------------------------*/
-#portfolio{
+
+#portfolio {
 	margin-top: 60px;
 }
-.acvtive-link{
+.acvtive-link {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
@@ -623,7 +625,7 @@ nav{
 	letter-spacing: 0.055em;
 	color: #000000 !important;
 }
-.port-link{
+.port-link {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
@@ -633,14 +635,14 @@ nav{
 	transition: all 1.5s;
 	text-transform: uppercase;
 }
-.port-link:hover{
+.port-link:hover {
 	color: #000000;
 	transition: all 1.5s;
 }
-#catsContent{
+#catsContent {
 	margin-top: 65px;
 }
-.port-ite{
+.port-ite {
 	height: 280px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -648,22 +650,22 @@ nav{
 	padding-right: 0 !important;
 	padding-left: 0 !important;
 }
-.port-ite:hover .overlay-portfolio{
+.port-ite:hover .overlay-portfolio {
 	opacity: 1;
-    transition: all 1s;
+	transition: all 1s;
 }
-.overlay-portfolio{
+.overlay-portfolio {
 	background: rgba(17, 146, 238, 0.7);
 	height: 280px;
 	width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: all 1s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	opacity: 0;
+	transition: all 1s;
 }
-.overlay-portfolio h3{
+.overlay-portfolio h3 {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -672,32 +674,30 @@ nav{
 	color: #FFFFFF;
 	position: relative;
 }
-.overlay-portfolio h3:before{
+.overlay-portfolio h3:before {
 	border-bottom: 3px solid #fff;
 	width: 40%;
 	content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
 }
-.tabs-boxs{
+.tabs-boxs {
 	margin-left: 0 !important;
 	margin-right: 0 !important;
 }
 /*-----------------------------------------
 9. Demo
 -------------------------------------------*/
-#demo{
+
+#demo {
 	padding: 125px 0;
-	background: linear-gradient(101.98deg, 
-		rgba(29, 42, 55, 0.94) 1.23%, 
-		rgba(29, 42, 55, 0.71) 99.16%),
-		url('../img/content/demo-bg.png');
-		background-repeat: no-repeat;
-		background-size: cover;
+	background: linear-gradient(101.98deg, rgba(29, 42, 55, 0.94) 1.23%, rgba(29, 42, 55, 0.71) 99.16%), url('../img/content/demo-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.demoinfo h4{
+.demoinfo h4 {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -705,58 +705,59 @@ nav{
 	letter-spacing: 0.025em;
 	color: #FFFFFF;
 }
-.demoinfo h4 span{
+.demoinfo h4 span {
 	font-weight: 800;
 }
 @media screen and (max-width: 768px) {
-	#demo{
+	#demo {
 		text-align: center;
 	}
-	.demobtn{
+	.demobtn {
 		margin-top: 30px;
 		width: 80%;
 	}
 }
-
 /*-----------------------------------------
 10. Reviews
 -------------------------------------------*/
-.rev-item{
-  position: relative;
+
+.rev-item {
+	position: relative;
 	text-align: center;
 }
-.rev-item img{
+.rev-item img {
 	width: auto !important;
 	display: initial !important;
 }
-.rev-item p{
+.rev-item p {
 	font-style: italic;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 27px;
 	text-align: center;
 	letter-spacing: 0.05em;
-  color: rgba(0, 0, 0, 0.72);
+	color: rgba(0, 0, 0, 0.72);
 }
-.owl-carousel{
+.owl-carousel {
 	display: block;
 }
-.owl-nav{
+.owl-nav {
 	display: none;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #1192EE;
-    transform: scale(1.8);
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: #1192EE;
+	transform: scale(1.8);
 }
-.owl-item{
+.owl-item {
 	opacity: 0;
 	transition: all 0.3s;
 }
-.owl-item.active{
+.owl-item.active {
 	opacity: 1 !important;
 	transition: all 1s;
 }
-.reviews-name{
+.reviews-name {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -766,7 +767,7 @@ nav{
 	color: #000000;
 	margin-left: 15px;
 }
-.reviews-com{
+.reviews-com {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 10px;
@@ -774,19 +775,19 @@ nav{
 	text-align: center;
 	letter-spacing: 0.05em;
 	color: #000000;
-  position: absolute;
-  left: 55%;
-  top: 95%;
+	position: absolute;
+	left: 55%;
+	top: 95%;
 }
-
 /*-----------------------------------------
 11. Blog
 -------------------------------------------*/
-#blog{
+
+#blog {
 	background: #F9F9F9;
 	padding-bottom: 100px;
 }
-.blog-subtitle{
+.blog-subtitle {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
@@ -794,10 +795,10 @@ nav{
 	letter-spacing: 0.025em;
 	color: rgba(0, 0, 0, 0.47);
 }
-.post-img{
+.post-img {
 	width: 100%;
 }
-.category-title{
+.category-title {
 	margin-top: 10px;
 	font-style: normal;
 	font-weight: 500;
@@ -806,7 +807,7 @@ nav{
 	letter-spacing: 0.025em;
 	color: rgba(0, 0, 0, 0.47);
 }
-.post-title{
+.post-title {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -814,7 +815,7 @@ nav{
 	letter-spacing: 0.025em;
 	color: #000000;
 }
-.author-by{
+.author-by {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 10px;
@@ -822,25 +823,26 @@ nav{
 	letter-spacing: 0.025em;
 	color: #000000;
 }
-.date{
-  float: right;
+.date {
+	float: right;
 }
 @media screen and (max-width: 768px) {
-	.blog-cont{
+	.blog-cont {
 		text-align: center;
 	}
 	.s-mrt-100 {
-    margin-top: 50px;
+		margin-top: 50px;
 	}
 }
 /*-----------------------------------------
 12. Team
 -------------------------------------------*/
-#team{
+
+#team {
 	margin-bottom: 80px;
 	text-align: center;
 }
-.team-name{
+.team-name {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -848,7 +850,7 @@ nav{
 	letter-spacing: 0.05em;
 	color: #000000;
 }
-.team-postion{
+.team-postion {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 12px;
@@ -856,16 +858,14 @@ nav{
 	letter-spacing: 0.05em;
 	color: rgba(0, 0, 0, 0.61);
 }
-.team-img{
+.team-img {
 	transition: all 2s;
 }
-.team-img:hover{
-	filter: sepia(80%) 
-	hue-rotate(535deg) 
-	saturate(260%);
+.team-img:hover {
+	filter: sepia(80%) hue-rotate(535deg) saturate(260%);
 	transition: all 2s;
 }
-.team-info{
+.team-info {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 12px;
@@ -874,104 +874,97 @@ nav{
 	letter-spacing: 0.05em;
 	color: rgba(0, 0, 0, 0.5);
 }
-.social-icon{
+.social-icon {
 	display: flex;
 	justify-content: center;
 }
-
-
-.social-icon li{
+.social-icon li {
 	margin-right: 15px;
-  width: 30px;
-  height: 30px;
-  background-color: #1192EE;
-  border-radius: 50%;
-  line-height: 30px;
-  transition: all 0.3s;
+	width: 30px;
+	height: 30px;
+	background-color: #1192EE;
+	border-radius: 50%;
+	line-height: 30px;
+	transition: all 0.3s;
 }
-.social-icon li:hover{
-  background-color: #2f2f2f;
-  transition: all 0.3s;
+.social-icon li:hover {
+	background-color: #2f2f2f;
+	transition: all 0.3s;
 }
-.social-icon li a{
+.social-icon li a {
 	color: #fff;
 }
-
 /*-----------------------------------------
 13. Brends
 -------------------------------------------*/
-#brends{
+
+#brends {
 	background: #F9F9F9;
 }
-.brends-item img{
+.brends-item img {
 	width: auto !important;
 	display: initial !important;
 }
-
 /*-----------------------------------------
 14. Contact
 -------------------------------------------*/
 
-#contact{
+#contact {
 	background: #F9F9F9;
-  padding-bottom: 70px;
+	padding-bottom: 70px;
 }
 .form-control {
-    width: 90%;
-    height: 42px;
-    background: #FFFFFF;
-    border-radius: 5px;
-    border: 0;
-    margin-bottom: 40px;
-}
-.form-control:focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: transparent;
-    outline: 0 !important;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
-}
-.contact-box{
-	position: relative;
-}
-.contact-img-z1{
-	position: absolute;
-    top: 30%;
-    z-index: 1;
-    left: 25%;
-}
-.contact-form{
+	width: 90%;
+	height: 42px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	border: 0;
 	margin-bottom: 40px;
 }
-.sendbtn:hover{
+.form-control:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: transparent;
+	outline: 0 !important;
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+.contact-box {
+	position: relative;
+}
+.contact-img-z1 {
+	position: absolute;
+	top: 30%;
+	z-index: 1;
+	left: 25%;
+}
+.contact-form {
+	margin-bottom: 40px;
+}
+.sendbtn:hover {
 	color: #fff;
 }
 @media screen and (max-width: 768px) {
 	.form-control {
-	    width: 100%;
+		width: 100%;
 	}
-	.contact-box{
+	.contact-box {
 		display: none;
 	}
-	.sendbtn{
+	.sendbtn {
 		width: 100%;
 	}
 }
-
 /*-----------------------------------------
 15. Newsletter
 -------------------------------------------*/
 
-#news{
+#news {
 	padding: 75px 0;
-	background: linear-gradient(101.24deg, 
-		rgba(29, 42, 55, 0.94) 1.5%, 
-		rgba(29, 42, 55, 0.86) 99.75%),
-		url('../img/content/newsletter.png');
-		background-repeat: no-repeat;
-		background-size: cover;
+	background: linear-gradient(101.24deg, rgba(29, 42, 55, 0.94) 1.5%, rgba(29, 42, 55, 0.86) 99.75%), url('../img/content/newsletter.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.news-title{
+.news-title {
 	text-align: center;
 	font-style: normal;
 	font-weight: 500;
@@ -980,50 +973,50 @@ nav{
 	letter-spacing: 0.025em;
 	color: #FFFFFF;
 }
-.news-form{
+.news-form {
 	margin-top: 70px;
 }
-.news-btn-send{
+.news-btn-send {
 	margin-right: 20px;
 }
-.news-input{
+.news-input {
 	color: #fff !important;
 	height: 56px;
-  background-color: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-right: 0;
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	border-right: 0;
 }
-.news-input:focus{ 
+.news-input:focus {
 	color: #fff !important;
 	border: 2px solid rgba(255, 255, 255, 0.3);
-  border-right: 0;
-  background-color: transparent !important;
+	border-right: 0;
+	background-color: transparent !important;
 }
-.send-req{
+.send-req {
 	width: 217px;
 	height: 56px;
 	border-radius: 0px 3px 3px 0px;
 }
 @media screen and (max-width: 768px) {
-	.send-req span{
+	.send-req span {
 		display: none;
 	}
-	.send-req{
+	.send-req {
 		width: 60px;
 	}
 	.news-btn-send {
-    	margin-right: 0px;
+		margin-right: 0px;
 	}
 }
 /*-----------------------------------------
 16. Footer
 -------------------------------------------*/
 
-footer{
+footer {
 	padding-top: 140px;
 	background: #1D2A37;
 }
-.foot-col-1 p{
+.foot-col-1 p {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -1031,24 +1024,24 @@ footer{
 	letter-spacing: 0.07em;
 	color: rgba(255, 255, 255, 0.65);
 }
-.social-footer{
-		margin-top: 30px;
-		margin-bottom: 30px;
-    display: flex;
+.social-footer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
 }
 .social-footer li {
-    margin-right: 40px;
-    width: 30px;
-    height: 30px;
-    background-color: #fff;
-    border-radius: 50%;
-    line-height: 30px;
-    text-align: center;
+	margin-right: 40px;
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	border-radius: 50%;
+	line-height: 30px;
+	text-align: center;
 }
 .social-footer li a {
-    color: #1D2A37;
+	color: #1D2A37;
 }
-.footer-col-clone h3{
+.footer-col-clone h3 {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 22px;
@@ -1056,10 +1049,10 @@ footer{
 	letter-spacing: 0.095em;
 	color: #FFFFFF;
 }
-.footer-col-clone ul li{
+.footer-col-clone ul li {
 	margin-bottom: 20px;
 }
-.footer-col-clone ul li a{
+.footer-col-clone ul li a {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -1067,7 +1060,7 @@ footer{
 	letter-spacing: 0.07em;
 	color: rgba(255, 255, 255, 0.65);
 }
-.foot-bottom p{
+.foot-bottom p {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
@@ -1078,14 +1071,14 @@ footer{
 	margin-top: 80px;
 }
 @media screen and (max-width: 768px) {
-	footer{
+	footer {
 		text-align: center;
-    padding-top: 60px;
+		padding-top: 60px;
 	}
 	.social-footer {
-    justify-content: center;
+		justify-content: center;
 	}
 	.foot-bottom p {
-    margin-top: 35px;
+		margin-top: 35px;
 	}
 }
