@@ -82,6 +82,12 @@ ul {
 .textcolor {
 	color: #1192EE !important;
 }
+.textcolor-2 {
+	ccolor: #7635F3 !important;
+}
+.bg-2 {
+	background: #7635F3;
+}
 /*-----------------------------------------
   3. Space
 -------------------------------------------*/
@@ -464,6 +470,9 @@ ul {
 
 .s-btn-sm {
 	width: 170px;
+}
+.s-btn-2-sm {
+	width: 150px;
 }
 .s-btn-md {
 	width: 50%;

@@ -24,6 +24,7 @@ TABLE OF CONTENT
 4. Brends
 5. Player
 6. Services
+7. Specialize
 -------------------------------------------*/
 
 /*Fonts*/
@@ -483,6 +484,7 @@ nav {
 @media only screen and (max-width: 767px) {
 	#player {
 		padding-top: 0;
+		text-align: center;
 	}
 	.player-text {
 		margin-top: 40px;
@@ -494,6 +496,7 @@ nav {
 
 #services {
 	padding-top: 65px;
+	padding-bottom: 120px;
 	background: #F7F4FB;
 }
 .serives-title h3 {
@@ -522,7 +525,7 @@ nav {
 .services-image-2 img {
 	position: absolute;
 	right: 40px;
-	bottom: -150px;
+	bottom: -25px;
 }
 .nav-pills .nav-link {
 	border-radius: 0;
@@ -568,3 +571,41 @@ nav {
 	letter-spacing: 0.03em;
 	color: #000000;
 }
+.btnstyle-2{
+	height: 39px;
+	border: 1px solid #7635F3;
+	border-radius: 5px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: 0.03em;
+	color: #7635F3;
+	background-color: transparent;
+}
+@media only screen and (max-width: 767px) {
+	.services-image-2 {
+	    display: none;
+	}
+	.services-image-1{
+		text-align: center;
+	}
+	.services-tabs{
+		margin-top: 50px;
+	}
+	.s-mrt-80 {
+    margin-top: 30px;
+	}
+	.nav-pills {
+    justify-content: space-around;
+	}
+	.nav-pills .nav-link {
+    margin-top: 15px;
+	}
+	#services{
+		padding-bottom: 65px;
+	}
+}
+/*-----------------------------------------
+7. Specialize
+-------------------------------------------*/
