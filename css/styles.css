@@ -352,10 +352,10 @@ nav{
 	padding-top: 80px;
 	padding-bottom: 150px;
 	margin-bottom: 50px;
-	/*background: url('../img/content/innovative-bg.png');
+	background: url('../img/content/innovative-bg.svg');
 	background-size: contain;
 	background-position: center;
-	background-repeat: no-repeat;*/
+	background-repeat: no-repeat;
 }
 .innovative-title{
 	font-style: normal;
