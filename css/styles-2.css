@@ -18,13 +18,15 @@ TABLE OF CONTENT
 
 /*-----------------------------------------
 0. Imports
-1. Header
-2. Hero
-3. Info
-4. Brends
-5. Player
-6. Services
-7. Specialize
+1. headings
+2. Header
+3. Hero
+4. Info
+5. Brends
+6. Player
+7. Services
+8. Specialize
+9. Counter
 -------------------------------------------*/
 
 /*Fonts*/
@@ -38,7 +40,49 @@ TABLE OF CONTENT
 @import url("default.css");
 
 /*-----------------------------------------
-1. Header
+1. Headings
+-------------------------------------------*/
+.h-2-style-text-color{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 19px;
+	letter-spacing: 0.055em;
+	color: #7635F3;
+}
+.h-2-style-text-bold{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 53px;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+.h-2-style-text-bold span{
+	font-weight: bold;
+}
+.h-2-style-text-par{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #000000;
+}
+.h-2-btn-style{
+	background: #7635F3;
+	border: 1px solid #7635F3;
+	border-radius: 5px;
+	color: #fff;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: 0.03em;
+	height: 39px;
+}
+/*-----------------------------------------
+2. Header
 -------------------------------------------*/
 
 header {
@@ -154,7 +198,7 @@ nav {
 	box-shadow: 4px 4px 20px rgba(205, 192, 192, 1);
 }
 /*-----------------------------------------
-2. Hero
+3. Hero
 -------------------------------------------*/
 
 #hero {
@@ -261,7 +305,7 @@ nav {
 	}
 }
 /*-----------------------------------------
-3. Info
+4. Info
 -------------------------------------------*/
 
 #info {
@@ -379,7 +423,7 @@ nav {
 	margin-bottom: 20px;
 }
 /*-----------------------------------------
-4. Brends
+5. Brends
 -------------------------------------------*/
 
 .brends-item img {
@@ -387,7 +431,7 @@ nav {
 	display: initial !important;
 }
 /*-----------------------------------------
-5. Player
+6. Player
 -------------------------------------------*/
 
 #player {
@@ -491,7 +535,7 @@ nav {
 	}
 }
 /*-----------------------------------------
-6. Services
+7. Services
 -------------------------------------------*/
 
 #services {
@@ -607,5 +651,115 @@ nav {
 	}
 }
 /*-----------------------------------------
-7. Specialize
+8. Specialize
+-------------------------------------------*/
+#specialize{
+		background-image: url("../img/content/specialize-layer.png");
+		background-repeat: no-repeat;
+    background-position: 85% 50%;
+		padding-top: 160px;
+		padding-bottom: 160px;
+}
+.specialize-boxs{
+	position: relative;
+}
+.medium-cir{
+  position: absolute;
+  top: -25%;
+  left: 35%;
+	background: rgba(65, 187, 255, 0.76);
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	z-index: 2;
+}
+.smoll-cir{
+  position: absolute;
+  top: 10%;
+  left: 80%;
+	background: #BAB4FB;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	z-index: 1;
+}
+.big-cir{
+  position: relative;
+  top: 90px;
+  left: 50%;
+	background: #FED645;
+	width: 277px;
+	height: 277px;
+	border-radius: 50%;
+}
+.cir{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	align-content: center;
+  flex-direction: column;
+}
+.cir p{
+	margin-bottom: 0 !important;
+}
+.cir-count{
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55.7747px;
+	line-height: 74px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
+.cir-text{
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25.0986px;
+	line-height: 33px;
+	letter-spacing: 0.055em;
+	color: #FFFDFD;
+}
+@media only screen and (max-width: 992px) {
+	.big-cir {
+    top: 70px;
+    left: 50px;
+	}
+	.medium-cir {
+    top: -25%;
+    left: -5%;
+	}
+	.smoll-cir {
+    top: 10%;
+    left: 55%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.big-cir {
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+	}
+	.medium-cir {
+    top: -15%;
+    left: 20%;
+	}
+	.smoll-cir {
+    top: 10%;
+    left: 55%;
+	}
+	.specialize-text {
+    margin-bottom: 85px;
+	}
+	#specialize{
+			text-align: center;
+			background-image: url("../img/content/specialize-layer.png");
+			background-repeat: no-repeat;
+	    background-position: 50% 50%;
+			padding-top: 60px;
+			padding-bottom: 160px;
+	}
+}
+/*-----------------------------------------
+9. Counter
 -------------------------------------------*/
