@@ -1,0 +1,29 @@
+/*
+	Project Name :
+	Author Company : SpecThemes
+	Project Date: 25 Mar, 2020
+	Template Developer: vsafaryan50@gmail.com
+*/
+/*
+==============================================
+TABLE OF CONTENT
+==============================================
+==============================================
+[END] TABLE OF CONTENT
+==============================================
+*/
+/*-----------------------------------------
+0. Imports
+1. headings
+2. Header
+-------------------------------------------*/
+/*-----------------------------------------
+0. Imports
+-------------------------------------------*/
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
+
+/*Default Styles*/
+@import url("default.css");
