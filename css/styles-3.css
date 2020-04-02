@@ -22,6 +22,9 @@ TABLE OF CONTENT
 6. Pricing
 7. Portfolio
 8. Integrity
+9. Count
+10. Feedback
+11. Brends
 -------------------------------------------*/
 /*-----------------------------------------
 0. Imports
@@ -224,7 +227,7 @@ nav {
   border-radius: 200px;
 }
 
-.active {
+.active-item {
   position: relative;
   font-style: normal;
   font-weight: bold !important;
@@ -234,7 +237,7 @@ nav {
   color: #000000;
 }
 
-.active::before {
+.active-item::before {
   content: "";
   width: 5px;
   height: 5px;
@@ -618,5 +621,183 @@ form.contact-form {
 -------------------------------------------*/
 #integrity {
   padding-top: 30px;
-  padding-bottom: 90px;
+  padding-bottom: 110px;
 }
+.integrity-info h2{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.integrity-info p{
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.055em;
+  color: rgba(0, 0, 0, 0.8);
+}
+.integrity-list li{
+  margin-top: 30px;
+  display: inline-flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height:21px;
+  letter-spacing: 0.055em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.integrity-icon{
+  margin-right: 20px;
+  color: #275CDC;
+  margin-top: 3px;
+}
+.integrity-btn{
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 200px;
+  padding: 19px 40px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.055em;
+  color: #275CDC;
+}
+/*-----------------------------------------
+9. Count
+-------------------------------------------*/
+#count{
+  background: linear-gradient(101.98deg, rgba(255, 255, 255, 0.8) 1.23%, rgba(255, 255, 255, 0.8) 99.16%), url("../img/content/home-3-count-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:60px 0;
+}
+.count-title{
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.055em;
+  color: #000000;
+}
+.count-item{
+  text-align: center;
+}
+.count-item h3{
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 90px;
+  letter-spacing: 0.055em;
+  color: #000000;
+}
+.count-item p{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.055em;
+  color: #000000;
+}
+
+/*-----------------------------------------
+10. Feedback
+-------------------------------------------*/
+#feedback{
+  padding: 80px 0;
+}
+.feed-top{
+  margin-bottom: 120px;
+}
+.feed-top h2{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.055em;
+  color: #275CDC;
+  text-align: center;
+}
+.feed-top h3{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.055em;
+  color: #000000;
+  text-align: center;
+}
+.feed-img{
+    width: auto !important;
+    display: initial !important;
+}
+.feed-title{
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.055em;
+  color: #000000;
+}
+.feed-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height:24px;
+  letter-spacing: 0.055em;
+  color: rgba(0, 0, 0, 0.5);
+}
+.feed-author{
+  text-align: right;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.055em;
+  color: #000000;
+  margin-right: 35px;
+}
+.feed-author span{
+  font-weight: 900;
+}
+button.owl-prev {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    font-size: 35px !important;
+}
+button.owl-next {
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    font-size: 35px  !important;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: transparent;
+    color: #000;
+    text-decoration: none;
+}
+/*-----------------------------------------
+11. Brends
+-------------------------------------------*/
+.brends-item img {
+  width: auto !important;
+  display: initial !important;
+}
+/*-----------------------------------------
+12. blog
+-------------------------------------------*/
+/*#blog{
+  height: 350px;
+  background-image: url("../img/content/feedback-layer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}*/

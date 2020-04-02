@@ -10,6 +10,8 @@ TABLE OF CONTENT
 ==============================================
 
 1. Header
+2. Feedback
+3. Brends
 ==============================================
 [END] TABLE OF CONTENT
 ==============================================
@@ -48,3 +50,47 @@ $(window).scroll(function () {
 		$('.navMenu').removeClass('fixedColor');
 	}
 })
+/*-----------------------------------------
+2. Feedback
+-------------------------------------------*/
+/*owl-carousel reviresa*/
+$(document).ready(function () {
+	var owl = $("#owl-feedback").owlCarousel({
+		loop: true,
+		/*stagePadding: 350,*/
+		items: 1,
+		margin:0,
+		nav: true,
+		dots: false,
+		navText: ["<img src='img/icon/next-owl.png'>","<img src='img/icon/prev-owl.png'>"]
+		/*navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']*/
+	})
+
+});
+/*-----------------------------------------
+3. Brends
+-------------------------------------------*/
+/*owl-carousel brends*/
+$(document).ready(function () {
+	$("#owl-brends").owlCarousel({
+		loop: true,
+		items: 6,
+		nav: false,
+		dots: false,
+		autoplay: true,
+		autoplayTimeout: 4000,
+		autoplayHoverPause: false,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 3,
+			},
+			600: {
+				items: 3,
+			},
+			1000: {
+				items: 6,
+			}
+		}
+	})
+});
