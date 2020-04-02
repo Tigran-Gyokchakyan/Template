@@ -125,7 +125,7 @@ nav {
 
 @media screen and (max-width: 1300px) {
   .nav-links {
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -249,15 +249,109 @@ nav {
 3. Hero
 -------------------------------------------*/
 #hero {
-  height: 100vh;
+  padding-top: 250px;
+  padding-bottom: 550px;
   width: 100%;
   background-image: url("../img/content/home-3-hero.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
-
-
+.hero-info h3{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #275CDC;
+}
+.hero-info h2{
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.hero-info h2 span{
+  color: #275CDC;
+}
+.hero-info p{
+  margin-top: 35px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.5);
+}
+.hero-contact{
+    background: #275CDC;
+    border-radius: 10px;
+    padding: 0 50px;
+}
+.hero-contact h2{
+  margin-top: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.hero-contact p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.5);
+}
+form.contact-form {
+    padding: 20px 25px;
+}
+.form-send{
+  float: right;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.form-send:hover{
+  color: #fff;
+}
+.form-control {
+  text-align: center;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.form-control:focus {
+  border-radius: 10px;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  box-shadow: none !important;
+}
+@media screen and (max-width: 992px) {
+  #hero {
+      padding-bottom: 330px;
+      background-size: cover;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero-info {
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  #hero {
+    padding-bottom: 0px;
+    background-size: cover;
+    padding-top: 130px;
+  }
+}
 /*-----------------------------------------
 4. Services
 -------------------------------------------*/
