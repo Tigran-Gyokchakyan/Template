@@ -25,6 +25,8 @@ TABLE OF CONTENT
 9. Count
 10. Feedback
 11. Brends
+12. Blog
+13. Footer
 -------------------------------------------*/
 /*-----------------------------------------
 0. Imports
@@ -260,7 +262,8 @@ nav {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.hero-info h3{
+
+.hero-info h3 {
   font-style: normal;
   font-weight: 900;
   font-size: 18px;
@@ -268,7 +271,8 @@ nav {
   letter-spacing: 0.05em;
   color: #275CDC;
 }
-.hero-info h2{
+
+.hero-info h2 {
   margin-top: 20px;
   font-style: normal;
   font-weight: 900;
@@ -277,10 +281,12 @@ nav {
   letter-spacing: 0.02em;
   color: #000000;
 }
-.hero-info h2 span{
+
+.hero-info h2 span {
   color: #275CDC;
 }
-.hero-info p{
+
+.hero-info p {
   margin-top: 35px;
   font-style: normal;
   font-weight: normal;
@@ -289,12 +295,14 @@ nav {
   letter-spacing: 0.02em;
   color: rgba(0, 0, 0, 0.5);
 }
-.hero-contact{
-    background: #275CDC;
-    border-radius: 10px;
-    padding: 0 50px;
+
+.hero-contact {
+  background: #275CDC;
+  border-radius: 10px;
+  padding: 0 50px;
 }
-.hero-contact h2{
+
+.hero-contact h2 {
   margin-top: 30px;
   text-align: center;
   font-style: normal;
@@ -304,7 +312,8 @@ nav {
   letter-spacing: 0.05em;
   color: #FFFFFF;
 }
-.hero-contact p{
+
+.hero-contact p {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -313,17 +322,21 @@ nav {
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.5);
 }
+
 form.contact-form {
-    padding: 20px 25px;
+  padding: 20px 25px;
 }
-.form-send{
+
+.form-send {
   float: right;
   color: #fff;
   margin-bottom: 30px;
 }
-.form-send:hover{
+
+.form-send:hover {
   color: #fff;
 }
+
 .form-control {
   text-align: center;
   height: 44px;
@@ -331,6 +344,7 @@ form.contact-form {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
 .form-control:focus {
   border-radius: 10px;
   border-left: 0 !important;
@@ -338,23 +352,27 @@ form.contact-form {
   border-top: 0 !important;
   box-shadow: none !important;
 }
+
 @media screen and (max-width: 992px) {
   #hero {
-      padding-bottom: 330px;
-      background-size: cover;
+    padding-bottom: 330px;
+    background-size: cover;
   }
 }
+
 @media screen and (max-width: 767px) {
   .hero-info {
-      text-align: center;
-      margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
   }
+
   #hero {
     padding-bottom: 0px;
     background-size: cover;
     padding-top: 130px;
   }
 }
+
 /*-----------------------------------------
 4. Services
 -------------------------------------------*/
@@ -623,7 +641,8 @@ form.contact-form {
   padding-top: 30px;
   padding-bottom: 110px;
 }
-.integrity-info h2{
+
+.integrity-info h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -631,7 +650,8 @@ form.contact-form {
   letter-spacing: 0.05em;
   color: #000000;
 }
-.integrity-info p{
+
+.integrity-info p {
   font-family: Red Hat Display;
   font-style: normal;
   font-weight: normal;
@@ -640,22 +660,25 @@ form.contact-form {
   letter-spacing: 0.055em;
   color: rgba(0, 0, 0, 0.8);
 }
-.integrity-list li{
+
+.integrity-list li {
   margin-top: 30px;
   display: inline-flex;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height:21px;
+  line-height: 21px;
   letter-spacing: 0.055em;
   color: rgba(0, 0, 0, 0.6);
 }
-.integrity-icon{
+
+.integrity-icon {
   margin-right: 20px;
   color: #275CDC;
   margin-top: 3px;
 }
-.integrity-btn{
+
+.integrity-btn {
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 200px;
@@ -667,16 +690,18 @@ form.contact-form {
   letter-spacing: 0.055em;
   color: #275CDC;
 }
+
 /*-----------------------------------------
 9. Count
 -------------------------------------------*/
-#count{
+#count {
   background: linear-gradient(101.98deg, rgba(255, 255, 255, 0.8) 1.23%, rgba(255, 255, 255, 0.8) 99.16%), url("../img/content/home-3-count-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding:60px 0;
+  padding: 60px 0;
 }
-.count-title{
+
+.count-title {
   text-align: center;
   font-style: normal;
   font-weight: 900;
@@ -685,10 +710,12 @@ form.contact-form {
   letter-spacing: 0.055em;
   color: #000000;
 }
-.count-item{
+
+.count-item {
   text-align: center;
 }
-.count-item h3{
+
+.count-item h3 {
   margin-top: 20px;
   font-style: normal;
   font-weight: 900;
@@ -697,7 +724,8 @@ form.contact-form {
   letter-spacing: 0.055em;
   color: #000000;
 }
-.count-item p{
+
+.count-item p {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -709,13 +737,15 @@ form.contact-form {
 /*-----------------------------------------
 10. Feedback
 -------------------------------------------*/
-#feedback{
+#feedback {
   padding: 80px 0;
 }
-.feed-top{
+
+.feed-top {
   margin-bottom: 120px;
 }
-.feed-top h2{
+
+.feed-top h2 {
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -724,7 +754,8 @@ form.contact-form {
   color: #275CDC;
   text-align: center;
 }
-.feed-top h3{
+
+.feed-top h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -733,11 +764,13 @@ form.contact-form {
   color: #000000;
   text-align: center;
 }
-.feed-img{
-    width: auto !important;
-    display: initial !important;
+
+.feed-img {
+  width: auto !important;
+  display: initial !important;
 }
-.feed-title{
+
+.feed-title {
   margin-top: 30px;
   font-style: normal;
   font-weight: 900;
@@ -746,15 +779,17 @@ form.contact-form {
   letter-spacing: 0.055em;
   color: #000000;
 }
-.feed-text{
+
+.feed-text {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height:24px;
+  line-height: 24px;
   letter-spacing: 0.055em;
   color: rgba(0, 0, 0, 0.5);
 }
-.feed-author{
+
+.feed-author {
   text-align: right;
   font-style: normal;
   font-weight: 300;
@@ -764,26 +799,37 @@ form.contact-form {
   color: #000000;
   margin-right: 35px;
 }
-.feed-author span{
+
+.feed-author span {
   font-weight: 900;
 }
+
 button.owl-prev {
-    position: absolute;
-    left: 10%;
-    top: 35%;
-    font-size: 35px !important;
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  font-size: 35px !important;
 }
+
 button.owl-next {
-    position: absolute;
-    right: 10%;
-    top: 35%;
-    font-size: 35px  !important;
+  position: absolute;
+  right: 10%;
+  top: 35%;
+  font-size: 35px !important;
 }
+
 .owl-theme .owl-nav [class*='owl-']:hover {
-    background: transparent;
-    color: #000;
-    text-decoration: none;
+  background: transparent;
+  color: #000;
+  text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .item.feedback-item {
+    text-align: center;
+  }
+}
+
 /*-----------------------------------------
 11. Brends
 -------------------------------------------*/
@@ -791,13 +837,268 @@ button.owl-next {
   width: auto !important;
   display: initial !important;
 }
+
 /*-----------------------------------------
 12. blog
 -------------------------------------------*/
-/*#blog{
-  height: 350px;
+#blog-layer {
+  height: 400px;
   background-image: url("../img/content/feedback-layer.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-}*/
+  margin-top: -140px;
+}
+
+#blog {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blob-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 572px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 120px 60px 36px;
+}
+
+.blog-cat {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.055em;
+  color: #FFFFFF;
+}
+
+.blog-cat span {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.blog-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+/*-----------------------------------------
+13. Footer
+-------------------------------------------*/
+footer {
+  background-color: #283347;
+  padding-top: 75px;
+  padding-bottom: 145px;
+}
+
+.foot-col h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.foot-col ul li {
+  margin-bottom: 20px;
+}
+
+.foot-col ul li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.foot-col-1 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.foot-col-1 a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  float: right;
+}
+
+.foot-col-4 ul li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.foot-col-3, .foot-col-4 {
+  padding-left: 50px;
+}
+
+.email-input {
+  border: 0 !important;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 80px;
+  height: 34px;
+  background: #275CDC;
+  color: #fff !important;
+}
+
+.email-input:focus {
+  border: 0 !important;
+  background: #275CDC;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.email-input::-webkit-input-placeholder {
+  color: #fff !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+}
+
+.email-input:-ms-input-placeholder {
+  color: #fff !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+}
+
+button.send-email {
+  background: #FFFFFF;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 0.07em;
+  color: #275CDC;
+  width: 65px;
+  height: 34px;
+  border-radius: 50px;
+  position: absolute;
+  left: 110px;
+  z-index: 3;
+}
+
+.email-input::placeholder {
+  color: #fff !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+}
+
+.input-send {
+  width: 135px;
+  margin-bottom: 35px;
+}
+
+.new {
+  padding: 5px 10px;
+  background: #275CDC;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+#footer-bottom {
+  padding: 10px 0;
+  background: linear-gradient(101.98deg,
+      rgba(255, 255, 255, 0.8) 1.23%,
+      rgba(255, 255, 255, 0.8) 99.16%),
+    url('../img/content/footer-bottom.png');
+  background-position: bottom !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+#footer-bottom p {
+  margin-bottom: 0;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-footer li {
+  margin-right: 40px;
+  width: 30px;
+  height: 30px;
+  background-color: #1D2A37;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-footer li a {
+  color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  footer {
+    text-align: center;
+    padding-bottom: 35px;
+  }
+
+  .foot-col-1 a {
+    float: none;
+  }
+
+  .foot-col {
+    margin-bottom: 30px;
+  }
+
+  .foot-col-3, .foot-col-4 {
+    padding-left: 0px;
+  }
+
+  .input-send {
+    position: relative;
+    left: 50%;
+    transform: translateX(-65%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section#footer-bottom {
+    text-align: center;
+  }
+
+  .social-footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-footer li {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}
