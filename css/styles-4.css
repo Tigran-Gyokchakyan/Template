@@ -350,33 +350,424 @@ TABLE OF CONTENT
 /*-----------------------------------------
 8. Services
 -------------------------------------------*/
+#services{
+  padding-top: 50px;
+  background-image: url("../img/content/h-4-services-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.services-box-item img{
 
-
-
+}
+.item-chek{
+  background: #FFFFFF;
+  box-shadow: -8px -8px 16px rgba(228, 228, 228, 0.52), 8px 8px 16px rgba(176, 171, 171, 0.45);
+}
+.item-rh{
+  text-align: right;
+}
+.services-box-item{
+  margin-bottom: 50px;
+  padding: 45px 15px 0 15px;
+  min-height: 288px;
+  max-height: 400px;
+}
+.services-box-item h3{
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: rgba(46, 53, 56, 0.92);
+}
+.services-box-item p{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: rgba(46, 53, 56, 0.92);
+}
+.services-box-item a{
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #1192EE;
+}
+.services-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 /*-----------------------------------------
 9. Brends
 -------------------------------------------*/
-
+.brends-item img {
+  width: auto !important;
+  display: initial !important;
+}
 
 
 /*-----------------------------------------
 10. Feedback
 -------------------------------------------*/
-
-
-
+#feedback{
+  background: linear-gradient(268.95deg, #FFFFFF 0.34%,
+    rgba(255, 255, 255, 0) 99.58%,
+    rgba(255, 255, 255, 0.87) 101%),
+    url("../img/content/h-4-feed-bg.png");
+  background-size: 50% 100%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  min-height: 370px;
+}
+.my-row{
+  min-height: 370px;
+}
+.rev-item img {
+  width: auto !important;
+  display: initial !important;
+}
+.rev-item{
+  padding: 0 35px;
+  width: 490px;
+  background-color: #fff;
+  box-shadow: -8px -8px 16px rgba(228, 228, 228, 0.52), 8px 8px 16px rgba(176, 171, 171, 0.45);
+  border-radius: 5px;
+  margin-top: 45px;
+}
+.hed-rev{
+  display: flex;
+}
+.feed-stars{
+  margin-left: 15px;
+}
+.author{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11.9821px;
+  line-height: 18px;
+  letter-spacing: 0.055em;
+  color: #000000;
+  margin-top: 5px;
+}
+.author span{
+  font-weight: 900;
+}
+.rev-name{
+  margin-top: 15px;
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height:21px;
+  letter-spacing: 0.055em;
+  color: #000000;
+  text-align: right;
+}
+.rev-info{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height:21px;
+  letter-spacing: 0.055em;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 50px;
+}
+.owl-item{
+    opacity: 0.4 !important;
+}
+.owl-item.active{
+    opacity: 1 !important;
+}
+.owl-nav {
+    color: #DADADA;
+    font-size: 24px;
+}
+button.owl-prev, button.owl-next {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DADADA !important;
+    border-radius: 50px !important;
+}
 /*-----------------------------------------
 11. News
 -------------------------------------------*/
-
-
-
+#news{
+  padding: 100px 0;
+}
+.news-box{
+  margin-top: 50px;
+}
+.news-img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.news-cat{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.025em;
+  color: #1192EE;
+}
+.news-title h3{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+.news-data{
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.025em;
+  color: #1192EE;
+}
 /*-----------------------------------------
 12. Video
 -------------------------------------------*/
+#player{
+  padding: 90px 0;
+  background: rgba(46, 53, 56, 0.92);
+  text-align: center;
+}
 
+.video-element__poster h3 {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
 
+.btn-play {
+  transform: scale(1);
+  cursor: pointer;
+  animation: playbtn 2s ease;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 0%;
+}
+
+@keyframes playbtn {
+  0% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+}
 
 /*-----------------------------------------
 13. Footer
 -------------------------------------------*/
+footer {
+  background-color: #2E3538;
+  padding-top: 150px;
+  padding-bottom: 20px;
+}
+
+.foot-col h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.foot-col ul li {
+  margin-bottom: 20px;
+}
+
+.foot-col ul li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.foot-col-1 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.foot-col-1 a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  float: right;
+}
+
+.foot-col-4 ul li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.foot-col-3, .foot-col-4 {
+  padding-left: 50px;
+}
+
+.email-input {
+  border: 0 !important;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 80px;
+  height: 34px;
+  background: #275CDC;
+  color: #fff !important;
+}
+
+.email-input:focus {
+  border: 0 !important;
+  background: #275CDC;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.email-input::-webkit-input-placeholder {
+  color: #fff !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+}
+
+.email-input:-ms-input-placeholder {
+  color: #fff !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+}
+
+button.send-email {
+  background: #FFFFFF;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 0.07em;
+  color: #275CDC;
+  width: 65px;
+  height: 34px;
+  border-radius: 50px;
+  position: absolute;
+  left: 110px;
+  z-index: 3;
+}
+
+.email-input::placeholder {
+  color: #fff !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+}
+
+.input-send {
+  width: 135px;
+  margin-bottom: 35px;
+}
+
+.new {
+  padding: 5px 10px;
+  background: #275CDC;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+.copyr p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.footer-bottom{
+  position: relative;
+}
+.footer-bottom:before{
+  position: absolute;
+  top: -30px;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(218, 218, 218, 0.2);
+}
+.termlist{
+  display: flex;
+  justify-content: space-around;
+}
+.termlist li a{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.5)
+}
+@media screen and (max-width: 992px) {
+  footer {
+    padding-top: 60px;
+    text-align: center;
+  }
+  .foot-col-3, .foot-col-4 {
+    padding-left: 0px;
+  }
+  .input-send {
+    position: relative;
+    left: 50%;
+    transform: translateX(-65%);
+  }
+  .foot-col-1 a {
+    float: none;
+  }
+  .foot-col {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .copyr p{
+    text-align: center;
+  }
+}
