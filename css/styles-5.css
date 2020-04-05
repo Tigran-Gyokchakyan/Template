@@ -896,10 +896,11 @@ nav {
 /*-----------------------------------------
 10. Awards
 -------------------------------------------*/
-#awards{
+#awards {
   padding-bottom: 100px;
 }
-.awards-item{
+
+.awards-item {
   width: 80px;
   height: 80px;
   box-shadow: 4px 4px 4.52778px rgba(218, 213, 213, 0.23);
@@ -910,12 +911,14 @@ nav {
   transform: translateX(-50%);
   margin-top: 25px;
 }
-.awards-item img{
+
+.awards-item img {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-.awards-title{
+
+.awards-title {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -925,17 +928,19 @@ nav {
   text-align: center;
   margin-top: 25px;
 }
+
 /*-----------------------------------------
 11. Contact
 -------------------------------------------*/
-#contact{
+#contact {
   padding: 140px 0 60px 0;
   background: url("../img/content/h-5-contact-layer.png");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.contact-title{
+
+.contact-title {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -944,7 +949,8 @@ nav {
   color: #FFFFFF;
   text-align: right;
 }
-.contact-info{
+
+.contact-info {
   margin-top: 30px;
   font-style: normal;
   font-weight: normal;
@@ -954,10 +960,12 @@ nav {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.64);
 }
-.contact-btn{
+
+.contact-btn {
   float: right;
   margin-top: 50px;
 }
+
 /*-----------------------------------------
 12. Footer
 -------------------------------------------*/

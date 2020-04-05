@@ -23,8 +23,7 @@ TABLE OF CONTENT
 11. We work
 12. Reviews
 13. News
-14. Subbscribe
-15. Footer
+14. Footer
 
 ==============================================
 [END] TABLE OF CONTENT
@@ -41,7 +40,7 @@ TABLE OF CONTENT
 /*-----------------------------------------
 1. Headings
 -------------------------------------------*/
-.h-6-btn-1{
+.h-6-btn-1 {
   padding: 16px 43px;
   background: #1192EE;
   border-radius: 5px;
@@ -52,7 +51,8 @@ TABLE OF CONTENT
   letter-spacing: 0.05em;
   color: #FFFFFF !important;
 }
-.h-6-btn-2{
+
+.h-6-btn-2 {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -63,7 +63,8 @@ TABLE OF CONTENT
   border-radius: 5px;
   padding: 16px 35px;
 }
-.h-6-subtitle{
+
+.h-6-subtitle {
   position: relative;
   font-style: normal;
   font-weight: bold;
@@ -73,7 +74,8 @@ TABLE OF CONTENT
   color: #1192EE;
   margin-left: 50px;
 }
-.h-6-subtitle:before{
+
+.h-6-subtitle:before {
   content: "";
   width: 28px;
   height: 3px;
@@ -82,7 +84,8 @@ TABLE OF CONTENT
   left: -50px;
   top: 5px;
 }
-.h-6-title{
+
+.h-6-title {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -90,7 +93,8 @@ TABLE OF CONTENT
   letter-spacing: 0.05em;
   color: #002C5B;
 }
-.h-6-info{
+
+.h-6-info {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -98,6 +102,7 @@ TABLE OF CONTENT
   letter-spacing: 0.05em;
   color: #8A97A5;
 }
+
 /*-----------------------------------------
 2. Header
 -------------------------------------------*/
@@ -115,9 +120,11 @@ nav {
   background-color: transparent;
   height: 80px;
 }
+
 .logo {
-    width: 15%;
+  width: 15%;
 }
+
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -236,7 +243,8 @@ nav {
   background-color: #fff;
   box-shadow: 4px 4px 20px rgba(205, 192, 192, 1);
 }
-.item-active-nav{
+
+.item-active-nav {
   position: relative;
   font-style: normal;
   font-weight: bold !important;
@@ -245,7 +253,8 @@ nav {
   letter-spacing: 0.05em;
   color: #002C5B !important;
 }
-.item-active-nav:before{
+
+.item-active-nav:before {
   content: "";
   width: 6px;
   height: 6px;
@@ -256,7 +265,8 @@ nav {
   left: 50%;
   transform: translateX(-50%);
 }
-.free-btn{
+
+.free-btn {
   padding: 16px 43px;
   background: #1192EE;
   border-radius: 5px;
@@ -267,13 +277,15 @@ nav {
   letter-spacing: 0.05em;
   color: #FFFFFF !important;
 }
+
 /*-----------------------------------------
 3. Hero
 -------------------------------------------*/
-#hero{
+#hero {
   padding: 80px 0;
 }
-.h-6-hero-title{
+
+.h-6-hero-title {
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -281,11 +293,13 @@ nav {
   letter-spacing: 0.02em;
   color: #002C5B;
 }
-.h-6-hero-title span{
+
+.h-6-hero-title span {
   font-weight: 900;
   color: #1192EE;
 }
-.h-6-hero-info{
+
+.h-6-hero-info {
   margin-top: 60px;
   margin-bottom: 60px;
   font-style: normal;
@@ -295,7 +309,8 @@ nav {
   letter-spacing: 0.05em;
   color: #000000c7;
 }
-.h-6-hero-topik{
+
+.h-6-hero-topik {
   margin-top: 40px;
   font-style: normal;
   font-weight: 900;
@@ -304,12 +319,15 @@ nav {
   letter-spacing: 0.05em;
   color: rgba(0, 44, 91, 0.32);
 }
-.hero-image{
+
+.hero-image {
   text-align: right;
 }
-.hero-image img{
+
+.hero-image img {
   width: 75%;
 }
+
 .scroll {
   z-index: 1;
   text-align: center;
@@ -326,14 +344,14 @@ nav {
   transform: translateX(-50%);
   margin-top: 50px;
 }
-.scroll p{
+
+.scroll p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   color: rgba(0, 0, 0, 0.2);
 }
-
 
 @keyframes arrownim {
   from {
@@ -346,14 +364,17 @@ nav {
     transform: translateY(20px);
   }
 }
+
 @media screen and (max-width: 768px) {
-  .hero-image{
+  .hero-image {
     text-align: center;
   }
-  .hero-image img{
+
+  .hero-image img {
     width: 100%;
   }
 }
+
 /*-----------------------------------------
 4. Brends
 -------------------------------------------*/
@@ -361,35 +382,42 @@ nav {
   width: auto !important;
   display: initial !important;
 }
-.owl-item{
+
+.owl-item {
   opacity: 0.5;
   transition: all 1s;
 }
-.owl-item:hover{
+
+.owl-item:hover {
   opacity: 1;
   transition: all 1s;
 }
+
 /*-----------------------------------------
 5. Software
 -------------------------------------------*/
-.softwar-img{
+.softwar-img {
   text-align: right;
 }
+
 @media screen and (max-width: 768px) {
-  .softwar-img{
+  .softwar-img {
     text-align: center;
   }
 }
+
 /*-----------------------------------------
 6. Counts
 -------------------------------------------*/
-#count{
+#count {
   padding: 50px 0;
 }
-.box-shad{
+
+.box-shad {
   box-shadow: 0px 8px 10px rgba(247, 247, 247, 0.79);
 }
-.count-item h3{
+
+.count-item h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -398,10 +426,12 @@ nav {
   letter-spacing: 0.05em;
   color: #000000;
 }
-.count-item h3 i{
+
+.count-item h3 i {
   color: #1192EE;
 }
-.count-item p{
+
+.count-item p {
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -414,22 +444,25 @@ nav {
 /*-----------------------------------------
 7. About us
 -------------------------------------------*/
-#about{
+#about {
   padding: 80px 0;
   background: #E8F5FE;
 }
+
 @media screen and (max-width: 768px) {
-  .about-info{
+  .about-info {
     margin-top: 40px;
   }
 }
+
 /*-----------------------------------------
 8. Start tabs
 -------------------------------------------*/
-#start-tabs{
+#start-tabs {
   padding: 80px 0;
 }
-.start-title{
+
+.start-title {
   text-align: center;
   font-style: normal;
   font-weight: 500;
@@ -438,10 +471,12 @@ nav {
   letter-spacing: 0.02em;
   color: #002C5B;
 }
-.start-title span{
+
+.start-title span {
   color: #1192EE;
 }
-.start-sub{
+
+.start-sub {
   text-align: center;
   font-style: normal;
   font-weight: normal;
@@ -450,42 +485,713 @@ nav {
   letter-spacing: 0.05em;
   color: #8A97A5;
 }
+
+.tab-icon {
+  background: #FFFFFF;
+  border: 1px solid #1192EE;
+  width: 136px;
+  height: 134px;
+  box-shadow: 0px 8px 10px rgba(247, 247, 247, 0.79);
+  border-radius: 30px;
+}
+
+.tabs-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs-item h3 {
+  margin-top: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #002C5B;
+  margin-bottom: 70px;
+}
+
+.tabs-item p {
+  margin-top: 70px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #8A97A5;
+}
+
+.bar {
+  width: 11px;
+  height: 11px;
+  background-color: #DEF5FD;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.tabs-box {
+  position: relative;
+}
+
+.tabs-box:after {
+  content: "";
+  background-color: #DEF5FD;
+  height: 1px;
+  position: absolute;
+  top: 258px;
+  max-width: 100%;
+  width: 100%;
+  left: -50%;
+}
+
+.tabs-box:before {
+  content: "";
+  background-color: #DEF5FD;
+  height: 1px;
+  position: absolute;
+  top: 258px;
+  max-width: 100%;
+  width: 100%;
+  right: -50%;
+  z-index: 1;
+}
+
+.active-tab-box:after, .active-tab-box:before {
+  background-color: #1192EE;
+}
+
+.active-tab-box .bar {
+  background-color: #1192EE;
+}
+
 /*-----------------------------------------
 9. Demo
 -------------------------------------------*/
+#demo {
+  padding: 100px 0 50px 0;
+  background: -webkit-linear-gradient(bottom, #DEF5FD, #DEF5FD), #DEF5FD;
+  background: -o-linear-gradient(bottom, #DEF5FD, #DEF5FD), #DEF5FD;
+  background: linear-gradient(to top, #DEF5FD, #DEF5FD), #DEF5FD;
+}
 
+.demo-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
 
+.demo-title span {
+  color: #1192EE;
+  font-weight: 900;
+}
+
+.demo-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #8A97A5;
+}
+
+.input-send {
+  width: 100%;
+}
+
+.email-input {
+  border: 0 !important;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 80px;
+  background: #F6F7F9;
+  color: rgba(138, 151, 165, 0.3);
+  height: 54px;
+}
+
+.email-input:focus {
+  border: 0 !important;
+  background: #F6F7F9;
+  color: #000 !important;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: none !important;
+}
+
+.email-input::placeholder {
+  padding-left: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: rgba(138, 151, 165, 0.3);
+}
+
+.email-input::-webkit-input-placeholder {
+  padding-left: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: rgba(138, 151, 165, 0.3);
+}
+
+.email-input:-ms-input-placeholder {
+  padding-left: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: rgba(138, 151, 165, 0.3);
+}
+
+button.send-email {
+  background: #1192EE;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15.4286px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding: 15px 29px;
+  border-radius: 50px;
+  position: absolute;
+  right: -15px;
+  z-index: 3;
+}
 
 /*-----------------------------------------
 10. Pricing
 -------------------------------------------*/
+#pricing {
+  padding: 80px 0 0 0;
+  background-image: url("../img/content/h-6-pricing.png");
+  background-repeat: no-repeat;
+  background-position: 50% 75%;
+  background-size: contain;
+}
 
+.piricing-info h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #002C5B;
+  text-align: center;
+}
 
+.piricing-info p {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #8A97A5;
+  text-align: center;
+}
+
+.pricing-item {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(221, 215, 215, 0.12);
+  border-radius: 5px;
+  height: 490px;
+  margin-bottom: 50px;
+  padding: 0 85px;
+}
+
+.priceing-cheked {
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(221, 215, 215, 0.12);
+  border-radius: 5px;
+}
+
+.checked-border:before,
+.checked-border:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 35%;
+}
+
+.checked-border:before {
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #1192EE;
+  border-left: 1px solid #1192EE;
+  border-bottom-left-radius: 15px;
+}
+
+.checked-border:after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 1px solid #1192EE;
+  border-right: 1px solid #1192EE;
+  border-bottom-right-radius: 15px;
+}
+
+.priceing-cheked:before,
+.priceing-cheked:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 35%;
+}
+
+.priceing-cheked:before {
+  top: 0;
+  left: 0;
+  border-top: 1px solid #1192EE;
+  border-left: 1px solid #1192EE;
+  border-top-left-radius: 15px;
+}
+
+.priceing-cheked:after {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #1192EE;
+  border-right: 1px solid #1192EE;
+  border-top-right-radius: 15px;
+}
+
+.pricing-plan {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.pricing-amout {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  position: relative;
+  top: -50px;
+}
+
+.amout {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 92px;
+  line-height: 138px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  position: relative;
+  top: 50px;
+}
+
+.pricing-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.listbox {
+  height: 165px;
+  max-height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.pricing-item-list {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.pricing-item-list li {
+  margin-bottom: 10px;
+}
+
+.pricing-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #1192EE;
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.checked-btn {
+  bottom: 30px;
+}
+
+.list-chek i {
+  color: #6BD3EA;
+  margin-right: 10px;
+}
+
+.list-unchek i {
+  color: #002C5B;
+  margin-right: 13px;
+}
+
+.pricing-item.bussines {
+  height: 580px;
+  position: relative;
+  top: -50%;
+  transform: translateY(50%);
+  padding: 0;
+  box-shadow: 4px 4px 20px rgba(194, 184, 184, 0.25);
+}
+
+.bussines .pricing-amout {
+  top: -30px;
+}
+
+.info-pr {
+  padding: 25px 85px 0;
+}
+
+.bus {
+  background: #1191EE;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-bottom: 1px;
+}
+
+.bus p {
+  color: #fff !important;
+}
 
 /*-----------------------------------------
 11. We work
 -------------------------------------------*/
+#we-work {
+  padding: 80px 0;
+}
 
+.we-work-list li {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
 
+.we-work-list li i {
+  font-size: 22px;
+  position: relative;
+  top: 3px;
+  color: #002C5B;
+  margin-right: 10px;
+}
 
 /*-----------------------------------------
 12. Reviews
 -------------------------------------------*/
+#reviews {
+  padding: 80px 0;
+}
 
+.h-6-title span {
+  color: #1192EE;
+}
 
+.rev-item img {
+  width: auto !important;
+  display: initial !important;
+}
+
+.rev-item {
+  padding: 0 35px;
+  background-color: #fff;
+  box-shadow: -8px -8px 16px rgba(228, 228, 228, 0.52), 8px 8px 16px rgba(176, 171, 171, 0.45);
+  border-radius: 5px;
+  margin-top: 45px;
+}
+
+.hed-rev {
+  display: flex;
+}
+
+.feed-stars {
+  margin-left: 15px;
+}
+
+.author {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11.9821px;
+  line-height: 18px;
+  letter-spacing: 0.055em;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.author span {
+  font-weight: 900;
+}
+
+.rev-name {
+  margin-top: 15px;
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.055em;
+  color: #000000;
+}
+
+.rev-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.055em;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 50px;
+}
 
 /*-----------------------------------------
 13. News
 -------------------------------------------*/
+#news {
+  background: linear-gradient(90.33deg, #EEF9FF 0.09%, rgba(238, 249, 255, 0) 100.6%);
+  padding: 80px 0;
+}
 
+.blog-item {
+  margin-bottom: 30px;
+}
 
+.blog-info img {
+  position: absolute;
+  left: 65%;
+}
+
+.post-img {
+  border-radius: 0px 0px 19.8239px 19.8239px;
+  width: 100%;
+}
+
+.blog-category {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.025em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.blog-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.blog-item-info {
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 50%;
+}
+
+.author-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.025em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 767px) {
+  .blog-info {
+    text-align: center;
+  }
+
+  .blog-item-info {
+    height: 25%;
+  }
+
+  .blog-mr {
+    margin-top: 50px;
+  }
+}
 
 /*-----------------------------------------
-14.Subbscribe
+14. Footer
 -------------------------------------------*/
+footer {
+  background-image: url("../img/content/h-6-footer.png");
+  background-position: bottom;
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+  padding-bottom: 20px;
+}
 
+.subscribe h3 {
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  color: #000000;
+  text-align: center;
+}
 
+.foot-col h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: #1192EE;
+  margin-bottom: 30px;
+}
 
-/*-----------------------------------------
-15. Footer
--------------------------------------------*/
+.foot-col ul li {
+  margin-bottom: 20px;
+}
+
+.foot-col-1 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  color: #002C5B;
+}
+
+.foot-col-1 a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  color: #1192EE;
+  float: right;
+}
+
+.foot-col ul li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  color: #002C5B;
+}
+
+.foot-col-3, .foot-col-4 {
+  padding-left: 50px;
+}
+
+.new {
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 0.07em;
+  color: #1192EE;
+  margin-left: 10px;
+}
+
+.copyr p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  color: #000000;
+}
+
+.termlist {
+  display: flex;
+  justify-content: space-around;
+}
+
+.termlist li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(0, 44, 91, 0.53);
+}
+
+@media screen and (max-width: 992px) {
+  footer {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .foot-col-3, .foot-col-4 {
+    padding-left: 0px;
+  }
+
+  .foot-col-1 a {
+    float: none;
+  }
+
+  .foot-col {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .copyr p {
+    text-align: center;
+  }
+}
