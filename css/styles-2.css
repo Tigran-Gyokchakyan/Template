@@ -497,7 +497,14 @@ nav {
   width: auto !important;
   display: initial !important;
 }
-
+.owl-item{
+  opacity: 0.5;
+  transition: all 1s;
+}
+.owl-item:hover{
+  opacity: 1;
+  transition: all 1s;
+}
 /*-----------------------------------------
 6. Player
 -------------------------------------------*/

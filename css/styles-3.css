@@ -270,8 +270,20 @@ nav {
   line-height: 24px;
   letter-spacing: 0.05em;
   color: #275CDC;
+  position: relative;
 }
-
+.hero-info h3:before {
+  content: "";
+  background-image: url("../img/icon/h-3-title.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 15px;
+  position: absolute;
+  left: -75px;
+  top: 3px;
+}
 .hero-info h2 {
   margin-top: 20px;
   font-style: normal;

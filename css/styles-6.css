@@ -369,9 +369,12 @@ nav {
   .hero-image {
     text-align: center;
   }
-
   .hero-image img {
     width: 100%;
+  }
+  #hero {
+    padding: 20px 0;
+    text-align: center;
   }
 }
 
@@ -440,7 +443,11 @@ nav {
   letter-spacing: 0.05em;
   color: rgba(0, 44, 91, 0.3);
 }
-
+@media screen and (max-width: 768px) {
+  .count-item{
+    margin-bottom: 30px;
+  }
+}
 /*-----------------------------------------
 7. About us
 -------------------------------------------*/
@@ -1067,6 +1074,8 @@ button.send-email {
   }
 }
 
+
+
 /*-----------------------------------------
 14. Footer
 -------------------------------------------*/
@@ -1189,8 +1198,13 @@ footer {
     margin-bottom: 30px;
   }
 }
-
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
+  .input-send {
+    width: 95%;
+  }
+  button.send-email {
+    right: -25px;
+  }
   .copyr p {
     text-align: center;
   }

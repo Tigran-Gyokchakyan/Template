@@ -239,7 +239,14 @@ nav {
   transform: translate(-50%, -50%);
   top: 50%;
 }
-
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 10%;
+  }
+  .shop-icon {
+    width: 20%;
+  }
+}
 /*-----------------------------------------
 3. Hero
 -------------------------------------------*/
