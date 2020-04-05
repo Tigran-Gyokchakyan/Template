@@ -896,9 +896,255 @@ nav {
 /*-----------------------------------------
 10. Awards
 -------------------------------------------*/
+#awards{
+  padding-bottom: 100px;
+}
+.awards-item{
+  width: 80px;
+  height: 80px;
+  box-shadow: 4px 4px 4.52778px rgba(218, 213, 213, 0.23);
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 25px;
+}
+.awards-item img{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.awards-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-align: center;
+  margin-top: 25px;
+}
 /*-----------------------------------------
 11. Contact
 -------------------------------------------*/
+#contact{
+  padding: 140px 0 60px 0;
+  background: url("../img/content/h-5-contact-layer.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-align: right;
+}
+.contact-info{
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.64);
+}
+.contact-btn{
+  float: right;
+  margin-top: 50px;
+}
 /*-----------------------------------------
 12. Footer
 -------------------------------------------*/
+footer {
+  background-color: #2E3538;
+  padding-top: 150px;
+  padding-bottom: 20px;
+}
+
+.foot-col h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.foot-col ul li {
+  margin-bottom: 20px;
+}
+
+.foot-col ul li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.foot-col-1 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.foot-col-1 a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  float: right;
+}
+
+.foot-col-4 ul li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.foot-col-3, .foot-col-4 {
+  padding-left: 50px;
+}
+
+.email-input {
+  border: 0 !important;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 80px;
+  height: 34px;
+  background: #275CDC;
+  color: #fff !important;
+}
+
+.email-input:focus {
+  border: 0 !important;
+  background: #275CDC;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.email-input::-webkit-input-placeholder {
+  color: #fff !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+}
+
+.email-input:-ms-input-placeholder {
+  color: #fff !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+}
+
+button.send-email {
+  background: #FFFFFF;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 0.07em;
+  color: #275CDC;
+  width: 65px;
+  height: 34px;
+  border-radius: 50px;
+  position: absolute;
+  left: 110px;
+  z-index: 3;
+}
+
+.email-input::placeholder {
+  color: #fff !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+}
+
+.input-send {
+  width: 135px;
+  margin-bottom: 35px;
+}
+
+.new {
+  padding: 5px 10px;
+  background: #275CDC;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+.copyr p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.termlist {
+  display: flex;
+  justify-content: space-around;
+}
+
+.termlist li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.5)
+}
+
+@media screen and (max-width: 992px) {
+  footer {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .foot-col-3, .foot-col-4 {
+    padding-left: 0px;
+  }
+
+  .input-send {
+    position: relative;
+    left: 50%;
+    transform: translateX(-65%);
+  }
+
+  .foot-col-1 a {
+    float: none;
+  }
+
+  .foot-col {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .copyr p {
+    text-align: center;
+  }
+}
