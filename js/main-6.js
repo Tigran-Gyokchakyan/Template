@@ -53,3 +53,28 @@ $(window).scroll(function() {
 /*-----------------------------------------
 2. Brends
 -------------------------------------------*/
+/*owl-carousel brends*/
+$(document).ready(function() {
+  $("#owl-brends").owlCarousel({
+    loop: true,
+    items: 8,
+    center: true,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: false,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      600: {
+        items: 4,
+      },
+      1000: {
+        items: 8,
+      }
+    }
+  })
+});

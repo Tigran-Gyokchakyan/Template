@@ -41,9 +41,63 @@ TABLE OF CONTENT
 /*-----------------------------------------
 1. Headings
 -------------------------------------------*/
-
-
-
+.h-6-btn-1{
+  padding: 16px 43px;
+  background: #1192EE;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF !important;
+}
+.h-6-btn-2{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #1192EE;
+  border: 1px solid #1192EE;
+  border-radius: 5px;
+  padding: 16px 35px;
+}
+.h-6-subtitle{
+  position: relative;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #1192EE;
+  margin-left: 50px;
+}
+.h-6-subtitle:before{
+  content: "";
+  width: 28px;
+  height: 3px;
+  background-color: #1192EE;
+  position: absolute;
+  left: -50px;
+  top: 5px;
+}
+.h-6-title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #002C5B;
+}
+.h-6-info{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #8A97A5;
+}
 /*-----------------------------------------
 2. Header
 -------------------------------------------*/
@@ -61,10 +115,12 @@ nav {
   background-color: transparent;
   height: 80px;
 }
-
+.logo {
+    width: 15%;
+}
 .nav-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 85%;
 }
 
@@ -112,6 +168,7 @@ nav {
     align-items: center;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    justify-content: space-around;
   }
 
   .nav-links li {
@@ -213,21 +270,103 @@ nav {
 /*-----------------------------------------
 3. Hero
 -------------------------------------------*/
+#hero{
+  padding: 80px 0;
+}
+.h-6-hero-title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  letter-spacing: 0.02em;
+  color: #002C5B;
+}
+.h-6-hero-title span{
+  font-weight: 900;
+  color: #1192EE;
+}
+.h-6-hero-info{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #000000c7;
+}
+.h-6-hero-topik{
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  color: rgba(0, 44, 91, 0.32);
+}
+.hero-image{
+  text-align: right;
+}
+.hero-image img{
+  width: 75%;
+}
+.scroll {
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  animation: arrownim 2s ease;
+  animation-iteration-count: infinite;
+  position: relative;
+  left: 45%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+}
+.scroll p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.2);
+}
 
 
+@keyframes arrownim {
+  from {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 
+  to {
+    opacity: 0.8;
+    transform: translateY(20px);
+  }
+}
 /*-----------------------------------------
 4. Brends
 -------------------------------------------*/
-
-
-
+.brends-item img {
+  width: auto !important;
+  display: initial !important;
+}
+.owl-item{
+  opacity: 0.5;
+  transition: all 1s;
+}
+.owl-item:hover{
+  opacity: 1;
+  transition: all 1s;
+}
 /*-----------------------------------------
 5. Software
 -------------------------------------------*/
-
-
-
+.softwar-img{
+  text-align: right;
+}
 /*-----------------------------------------
 6. Counts
 -------------------------------------------*/
