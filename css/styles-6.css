@@ -548,7 +548,7 @@ nav {
   height: 11px;
   background-color: #DEF5FD;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .tabs-box {
@@ -564,6 +564,7 @@ nav {
   max-width: 100%;
   width: 100%;
   left: -50%;
+  z-index: 1;
 }
 
 .tabs-box:before {
@@ -573,15 +574,19 @@ nav {
   position: absolute;
   top: 258px;
   max-width: 100%;
-  width: 100%;
-  right: -50%;
+  width: 50%;
+  right: 0%;
   z-index: 1;
 }
 
-.active-tab-box:after, .active-tab-box:before {
+.active-tab-box:after {
   background-color: #1192EE;
 }
 
+.tabs-box-first.active-tab-box:after,
+.tabs-box-first.active-tab-box:before {
+  background-color: #1192EE;
+}
 .active-tab-box .bar {
   background-color: #1192EE;
 }
@@ -1061,10 +1066,10 @@ button.send-email {
 }
 
 @media only screen and (max-width: 767px) {
-  .blog-info {
-    text-align: center;
-  }
 
+  .blog-info img{
+    display: none;
+  }
   .blog-item-info {
     height: 25%;
   }

@@ -611,6 +611,11 @@ nav {
     transform: scale(1) translate(-50%, -50%);
   }
 }
+@media only screen and (max-width: 992px) {
+  .player-text {
+    text-align: center;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   #player {
@@ -726,7 +731,15 @@ nav {
   color: #7635F3;
   background-color: transparent;
 }
+@media only screen and (max-width: 992px) {
+  .nav-pills {
+    justify-content: space-around;
+  }
 
+  .nav-pills .nav-link {
+    margin-top: 15px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .services-image-2 {
     display: none;
@@ -883,7 +896,28 @@ nav {
     padding-bottom: 160px;
   }
 }
+@media only screen and (max-width: 500px) {
+  .medium-cir {
+      left: 5%;
+      width: 180px;
+      height: 180px;
+  }
 
+  .smoll-cir {
+    top: 30%;
+    left: 65%;
+    width: 110px;
+    height: 110px;
+  }
+  .cir-count {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .cir-text {
+    font-size: 20px;
+  }
+
+}
 /*-----------------------------------------
 9. Counter
 -------------------------------------------*/
@@ -1145,7 +1179,11 @@ nav {
     left: 0%;
   }
 }
-
+@media only screen and (max-width: 400px) {
+  .port-layer {
+    top: -2%;
+  }
+}
 /*-----------------------------------------
 12. Contact
 -------------------------------------------*/
@@ -1417,6 +1455,7 @@ form.contact-form {
 .blog-item {
   margin-bottom: 30px;
   box-shadow: 3.96478px 3.96478px 19.8239px rgba(205, 192, 192, 0.2);
+  position: relative;
 }
 
 .post-img {
@@ -1480,6 +1519,13 @@ form.contact-form {
   .blog-mr {
     margin-top: 50px;
   }
+}
+@media only screen and (max-width: 400px) {
+
+  .blog-item-info {
+    height: 50%;
+  }
+
 }
 
 /*-----------------------------------------

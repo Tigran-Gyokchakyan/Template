@@ -39,8 +39,6 @@ TABLE OF CONTENT
 -------------------------------------------*/
 .h-5-btn-1 {
   padding: 17px 44px;
-  width: 200px;
-  height: 52px;
   background: #2ED47D;
   border-radius: 30px;
   font-style: normal;
@@ -53,8 +51,6 @@ TABLE OF CONTENT
 
 .h-5-btn-2 {
   padding: 17px 44px;
-  width: 200px;
-  height: 52px;
   border: 2px solid #FFFFFF;
   border-radius: 30px;
   font-style: normal;
@@ -324,13 +320,33 @@ nav {
   .hero-sub {
     margin-top: 150px;
   }
-
+  .hero-title{
+    font-size: 40px;
+  }
   .scroll {
     left: 47%;
     transform: translateX(-50%);
     margin-top: 120px;
   }
+  .btn-boxs {
+    display: flex;
+    justify-content: space-around;
+  }
 }
+@media only screen and (max-width: 460px) {
+  .btn-boxs {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .h-5-btn-2{
+    margin-top: 25px;
+  }
+  .s-mrr-30{
+    margin: 0;
+  }
+}
+
 
 /*-----------------------------------------
 4. Video
@@ -725,6 +741,14 @@ nav {
 @media only screen and (max-width: 767px) {
   #feedback {
     padding: 0px 0 150px 0;
+  }
+  .cl.rev-item{
+    width: 100%;
+    height: 100%;
+  }
+  .rev-item {
+    padding:0px;
+    width: 100%;
   }
 }
 

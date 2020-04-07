@@ -385,7 +385,7 @@ nav {
 
 .left-hero {
   position: relative;
-  left: 60px;
+  left: 15px;
 }
 
 .left-hero:after {
@@ -542,7 +542,7 @@ nav {
 
 .hero-bottom-list:after {
   content: "";
-  width: 78%;
+  width: 70%;
   height: 1px;
   background-color: #fff;
   position: absolute;
@@ -589,6 +589,10 @@ nav {
 
   .new-box h2 {
     font-size: 40px;
+  }
+  .hero-bottom-list:after {
+    content: "";
+    width: 65%;
   }
 }
 
@@ -977,6 +981,7 @@ nav {
 
 .my-row {
   min-height: 370px;
+  margin: 0 !important;
 }
 
 .rev-item img {
