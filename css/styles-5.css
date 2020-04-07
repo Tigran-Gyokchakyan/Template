@@ -59,8 +59,13 @@ TABLE OF CONTENT
   line-height: 19px;
   letter-spacing: 0.05em;
   color: #FFFFFF;
+  transition: all 0.3s;
 }
-
+.h-5-btn-2:hover{
+  color: #2E3538;
+  border: 2px solid #2E3538;
+  transition: all 0.3s;
+}
 .h-5-btn-3 {
   padding: 17px 44px;
   width: 220px;
@@ -818,7 +823,7 @@ nav {
   transition: all 1s;
 }
 
-.overlay-portfolio h3 {
+.overlay-portfolio a {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -828,7 +833,7 @@ nav {
   position: relative;
 }
 
-.overlay-portfolio h3:before {
+.overlay-portfolio a:before {
   border-bottom: 3px solid #fff;
   width: 40%;
   content: '';
@@ -901,9 +906,10 @@ nav {
   font-weight: bold;
   font-size: 24px;
   line-height: 36px;
+}
+.blog-title a{
   color: #FFFFFF;
 }
-
 .blog-title-wrap {
   text-align: center;
   font-style: normal;

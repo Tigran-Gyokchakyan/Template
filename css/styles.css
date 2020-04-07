@@ -962,18 +962,20 @@ nav {
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.025em;
+}
+.category-title a{
   color: rgba(0, 0, 0, 0.47);
 }
-
 .post-title {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.025em;
+}
+.post-title a{
   color: #000000;
 }
-
 .author-by {
   font-style: normal;
   font-weight: normal;

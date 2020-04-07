@@ -1041,9 +1041,10 @@ button.send-email {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.025em;
+}
+.blog-title a{
   color: #000000;
 }
-
 .blog-item-info {
   width: 100%;
   padding-left: 25px;
