@@ -11,7 +11,9 @@ TABLE OF CONTENT
 
 1. Header
 2. Reviews
-3. Brends
+3. Feedback
+4. Brends
+5. Player
 ==============================================
 [END] TABLE OF CONTENT
 ==============================================
@@ -41,15 +43,28 @@ const navSlide = () => {
   });
 }
 navSlide();
+
 /*NavBar Stick*/
-const navHeight = $("nav").height();
-$(window).scroll(function() {
-  if ($(this).scrollTop() > navHeight) {
-    $('.navMenu').addClass('fixedColor');
-  } else {
-    $('.navMenu').removeClass('fixedColor');
-  }
-})
+if (document.getElementById('stick-black') !== null) {
+  const navHeight = $("nav").height();
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > navHeight) {
+      $('.navMenu').addClass('fixedColor');
+    } else {
+      $('.navMenu').removeClass('fixedColor');
+    }
+  })
+}else if (document.getElementById('stick-whith') !== null) {
+  const navHeight = $("nav").height();
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > navHeight) {
+      $('.navMenu').addClass('fixed');
+    } else {
+      $('.navMenu').removeClass('fixed');
+    }
+  })
+}
+
 /*Anchor Smooth scrolling*/
 $(document).on('click', 'a[href^="#about"]', function(event) {
   event.preventDefault();
@@ -57,6 +72,21 @@ $(document).on('click', 'a[href^="#about"]', function(event) {
     scrollTop: $($.attr(this, 'href')).offset().top - 80
   }, 1000);
 });
+/*Anchor Smooth scrolling*/
+$(document).on('click', 'a[href^="#player"]', function(event) {
+  event.preventDefault();
+  $('html, body').animate({
+    scrollTop: $($.attr(this, 'href')).offset().top - 80
+  }, 1000);
+});
+/*Anchor Smooth scrolling*/
+$(document).on('click', 'a[href^="#startup"]', function(event) {
+  event.preventDefault();
+  $('html, body').animate({
+    scrollTop: $($.attr(this, 'href')).offset().top - 150
+  }, 1000);
+});
+
 /*-----------------------------------------
 2. Reviews
 -------------------------------------------*/
@@ -73,10 +103,72 @@ $(document).ready(function() {
     autoplayHoverPause: false
   })
 });
+
 /*-----------------------------------------
-3. Brends
+3. Feedback
 -------------------------------------------*/
-/*owl-carousel brends*/
+$(document).ready(function() {
+  $("#owl-feedback-2").owlCarousel({
+    loop: true,
+    items: 1,
+    stagePadding: 130,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: false,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        stagePadding: 0,
+      },
+      600: {
+        stagePadding: 50,
+      },
+      1000: {
+        stagePadding: 0,
+      },
+      1200: {
+        stagePadding: 130,
+      }
+    }
+  })
+});
+
+/*-----------------------------------------
+3. Feedback
+-------------------------------------------*/
+/*owl-carousel reviresa*/
+$(document).ready(function() {
+  var owl = $("#owl-feedback").owlCarousel({
+    loop: true,
+    /*stagePadding: 350,*/
+    items: 1,
+    margin: 0,
+    nav: true,
+    dots: false,
+    navText: ["<img src='img/icon/next-owl.png'>", "<img src='img/icon/prev-owl.png'>"]
+    /*navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']*/
+  })
+});
+
+$(document).ready(function() {
+  $("#owl-feedback-3").owlCarousel({
+    loop: true,
+    items: 1,
+    center: true,
+    nav: false,
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: false,
+    responsiveClass: true,
+  })
+});
+/*-----------------------------------------
+4. Brends
+-------------------------------------------*/
+/*brends*/
 $(document).ready(function() {
   $("#owl-brends").owlCarousel({
     loop: true,
@@ -100,3 +192,56 @@ $(document).ready(function() {
     }
   })
 });
+
+$(document).ready(function() {
+  $("#owl-brends-2").owlCarousel({
+    loop: true,
+    items: 8,
+    center: true,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: false,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      600: {
+        items: 4,
+      },
+      1000: {
+        items: 8,
+      }
+    }
+  })
+});
+/*-----------------------------------------
+5. Player
+-------------------------------------------*/
+if (document.getElementById('video') !== null) {
+  var templateElement = document.getElementById('video');
+  var template = templateElement.innerHTML;
+  var posterElement = document.getElementById('video-poster');
+  var videoElement = document.getElementById('video-element');
+  posterElement.addEventListener('click', function() {
+    videoElement.removeChild(posterElement);
+    videoElement.innerHTML += template;
+  });
+}
+
+if (document.getElementById('player') !== null) {
+  var doom = document.getElementById('player');
+  var templateElement = document.getElementById('video-2');
+  var template = templateElement.innerHTML;
+  var posterElement = document.getElementById('video-poster-2');
+  var videoElement = document.getElementById('video-element-2');
+  posterElement.addEventListener('click', function() {
+    videoElement.removeChild(posterElement);
+    doom.style.padding = 0;
+    doom.style.height = "400px";
+    videoElement.style.height = "400px";
+    videoElement.innerHTML += template;
+  });
+}
