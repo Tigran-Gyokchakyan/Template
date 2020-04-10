@@ -1127,9 +1127,9 @@ button.owl-prev, button.owl-next {
 .btn-play {
   transform: scale(1);
   cursor: pointer;
-  animation: playbtn 2s ease;
+/*  animation: playbtn 2s ease;
   animation-iteration-count: infinite;
-  transform-origin: 50% 0%;
+  transform-origin: 50% 0%;*/
 }
 
 @keyframes playbtn {

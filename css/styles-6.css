@@ -911,7 +911,14 @@ button.send-email {
 .bus p {
   color: #fff !important;
 }
-
+@media only screen and (max-width: 400px) {
+  .pricing-item, .pricing-item.bussines {
+      padding: 0 25px;
+  }
+  .info-pr {
+    padding: 10px 15px 0;
+  }
+}
 /*-----------------------------------------
 11. We work
 -------------------------------------------*/
@@ -1066,6 +1073,14 @@ button.send-email {
   color: rgba(0, 0, 0, 0.5);
 }
 
+@media only screen and (max-width: 992px) {
+
+  .blog-info img{
+    position: absolute;
+    left: 10%;
+  }
+
+}
 @media only screen and (max-width: 767px) {
 
   .blog-info img{
