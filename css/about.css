@@ -91,17 +91,20 @@ TABLE OF CONTENT
   border-radius: 5px;
   height: 45px;
 }
-.demobtn-outline{
+
+.demobtn-outline {
   color: #1192EE;
   border: 2px solid #1192EE;
   border-radius: 5px;
   background-color: #fff;
   margin-left: 70px;
 }
-.demobtn-outline:hover{
+
+.demobtn-outline:hover {
   color: #fff;
   border: 0px;
 }
+
 .port-btn-style {
   border: 1px solid #000000;
   border-radius: 5px;
@@ -124,7 +127,8 @@ TABLE OF CONTENT
   border: 1px solid #fff;
   transition: all 0.3s;
 }
-.hero-title{
+
+.hero-title {
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -132,7 +136,8 @@ TABLE OF CONTENT
   letter-spacing: 0.01em;
   color: #FFFFFF;
 }
-.hero-subtitle{
+
+.hero-subtitle {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -140,14 +145,17 @@ TABLE OF CONTENT
   letter-spacing: 0.1em;
   color: #FFFFFF;
 }
-.textcolor-bl{
+
+.textcolor-bl {
   color: #000;
 }
+
 @media screen and (max-width: 400px) {
-  .hero-title{
+  .hero-title {
     font-size: 40px;
   }
 }
+
 /*-----------------------------------------
 2. Header
 -------------------------------------------*/
@@ -270,6 +278,7 @@ nav {
   border-radius: 5px;
   padding: 8px 20px;
 }
+
 .fixed {
   position: fixed;
   top: 0;
@@ -277,13 +286,15 @@ nav {
   background-color: #fff;
   box-shadow: 4px 4px 20px rgba(205, 192, 192, 1);
 }
-.m-item-active{
+
+.m-item-active {
   font-weight: 500 !important;
 }
+
 /*-----------------------------------------
 3. Hero
 -------------------------------------------*/
-#hero{
+#hero {
   padding: 135px 0 75px 0;
   width: 100%;
   background-image: linear-gradient(156.74deg, rgba(15, 15, 15, 0.96) 20.49%, rgba(6, 6, 6, 0.58) 99.56%), url("../img/content/about-hero.png");
@@ -291,9 +302,11 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.align-right{
+
+.align-right {
   text-align: right;
 }
+
 /*-----------------------------------------
 4. Integrity
 -------------------------------------------*/
@@ -312,6 +325,7 @@ nav {
   color: #1192EE;
   margin-top: 3px;
 }
+
 .video-element {
   width: 100%;
   height: 350px;
@@ -361,6 +375,7 @@ nav {
     transform: scale(1) translate(-50%, -50%);
   }
 }
+
 @media only screen and (max-width: 767px) {
   .video-element {
     margin-top: 40px;
@@ -370,10 +385,11 @@ nav {
 /*-----------------------------------------
 5. About
 -------------------------------------------*/
-#about{
+#about {
   padding: 100px 0;
   background: #F9F9F9;
 }
+
 .aboutinfo {
   text-align: center;
 }
@@ -393,17 +409,21 @@ nav {
   letter-spacing: 0.01em;
   color: #000000;
 }
-.m-about-title{
+
+.m-about-title {
   font-size: 20px;
 }
-.m-subtitle{
+
+.m-subtitle {
   font-size: 16px;
 }
+
 @media screen and (max-width: 768px) {
   .about-title {
     font-size: 22px;
   }
 }
+
 /*-----------------------------------------
 6. Innovative
 -------------------------------------------*/
@@ -418,9 +438,11 @@ nav {
   background-repeat: no-repeat;
   transform: rotate(180deg);
 }
-#innovative .container{
+
+#innovative .container {
   transform: rotate(-180deg);
 }
+
 .innovative-title {
   font-style: normal;
   font-weight: 500;
@@ -468,10 +490,10 @@ nav {
 }
 
 .bg-medium img {
-    position: absolute;
-    top: 40%;
-    left: -10%;
-    transform: rotate(180deg);
+  position: absolute;
+  top: 40%;
+  left: -10%;
+  transform: rotate(180deg);
 }
 
 .bg-smoll {
@@ -486,30 +508,34 @@ nav {
 }
 
 .bg-smoll img {
-    position: absolute;
-    right: -50%;
-    top: -50%;
-    transform: rotate(180deg);
+  position: absolute;
+  right: -50%;
+  top: -50%;
+  transform: rotate(180deg);
 }
 
 @media screen and (max-width: 1300px) {
-  .bg-big, .bg-medium, .bg-smoll  {
-   left: 50%;
+  .bg-big, .bg-medium, .bg-smoll {
+    left: 50%;
   }
 }
+
 @media screen and (max-width: 1065px) {
   .demobtn-outline {
-      margin-left: 0px;
+    margin-left: 0px;
   }
 }
+
 @media screen and (max-width: 992px) {
   #innovative {
     padding-bottom: 15px;
   }
+
   .innvlist li {
     text-align: left;
   }
-  .innovative-title{
+
+  .innovative-title {
     margin-top: 30px;
   }
 }
@@ -542,6 +568,7 @@ nav {
     left: 10%;
   }
 }
+
 @media screen and (max-width: 500px) {
   #innovative {
     text-align: center;
@@ -570,9 +597,11 @@ nav {
     left: 10%;
     width: 25%;
   }
-  .bg-big img{
+
+  .bg-big img {
     width: 15%;
   }
+
   .bg-smoll img {
     position: absolute;
     right: -200%;
@@ -601,12 +630,14 @@ nav {
     top: 70%;
     left: 10%;
   }
+
   .bg-smoll img {
     right: -130%;
     top: -35%;
     width: 75%;
   }
 }
+
 /*-----------------------------------------
 7. Demo
 -------------------------------------------*/
@@ -626,7 +657,6 @@ nav {
   color: #FFFFFF;
 }
 
-
 @media screen and (max-width: 768px) {
   #demo {
     text-align: center;
@@ -637,6 +667,7 @@ nav {
     width: 80%;
   }
 }
+
 /*-----------------------------------------
 8. Reviews
 -------------------------------------------*/
@@ -707,6 +738,7 @@ nav {
   left: 55%;
   top: 95%;
 }
+
 /*-----------------------------------------
 10. Newsletter
 -------------------------------------------*/
@@ -769,6 +801,7 @@ nav {
     margin-right: 0px;
   }
 }
+
 /*-----------------------------------------
 10. Footer
 -------------------------------------------*/
