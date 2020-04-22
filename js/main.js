@@ -54,7 +54,7 @@ if (document.getElementById('stick-black') !== null) {
       $('.navMenu').removeClass('fixedColor');
     }
   })
-}else if (document.getElementById('stick-whith') !== null) {
+} else if (document.getElementById('stick-whith') !== null) {
   const navHeight = $("nav").height();
   $(window).scroll(function() {
     if ($(this).scrollTop() > navHeight) {
@@ -245,3 +245,6 @@ if (document.getElementById('player') !== null) {
     videoElement.innerHTML += template;
   });
 }
+
+
+$('.collapse').collapse()

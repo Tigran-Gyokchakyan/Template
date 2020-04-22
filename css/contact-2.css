@@ -1,0 +1,455 @@
+/*
+	Project Name :
+	Author Company : SpecThemes
+	Project Date: 25 Mar, 2020
+	Template Developer: vsafaryan50@gmail.com
+*/
+/*
+==============================================
+TABLE OF CONTENT
+==============================================
+
+0. Imports
+1. Headings
+2. Header
+3. Hero
+8. Footer
+==============================================
+[END] TABLE OF CONTENT
+==============================================
+*/
+/*-----------------------------------------
+0. Imports
+-------------------------------------------*/
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400i,500,500i,700,700i,900,900i&display=swap');
+/*Default Styles*/
+@import url("default.css");
+
+::-webkit-input-placeholder {
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.25);
+  padding-left: 20px;
+}
+
+:-ms-input-placeholder {
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.25);
+  padding-left: 20px;
+}
+
+::placeholder {
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.25);
+  padding-left: 20px;
+}
+
+/*-----------------------------------------
+1. Headings
+-------------------------------------------*/
+.s-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.025em;
+  color: #1192EE;
+}
+
+.s-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.055em;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.btnstyle {
+  color: #fff;
+  border-radius: 5px;
+  height: 45px;
+}
+
+.demobtn-outline {
+  color: #1192EE;
+  border: 2px solid #1192EE;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-left: 70px;
+}
+
+.demobtn-outline:hover {
+  color: #fff;
+  border: 0px;
+}
+
+.port-btn-style {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  height: 45px;
+  margin-top: 20px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.055em;
+  color: #000000;
+  transition: all 0.3s;
+  margin-bottom: 40px;
+}
+
+.port-btn-style:hover {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+  transition: all 0.3s;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 57px;
+  line-height: 66px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.hero-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.textcolor-bl {
+  color: #000;
+}
+
+@media screen and (max-width: 400px) {
+  .hero-title {
+    font-size: 40px;
+  }
+}
+
+/*-----------------------------------------
+2. Header
+-------------------------------------------*/
+header {
+  transition: all 1s;
+  width: 100%;
+  z-index: 10;
+}
+
+/*Nav Bar*/
+nav {
+  transition: all 0.5s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  height: 80px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+@media screen and (max-width: 1300px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+.nav-links a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.055em;
+  color: #000000;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    right: 0;
+    top: 80px;
+    height: calc(100vh - 80px);
+    height: -moz-calc(100vh - 80px);
+    height: -webkit-calc(100vh - 80px);
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 999;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+  background-color: #fff;
+  z-index: 99;
+}
+
+.fixedColor div nav {
+  height: 80px;
+  transition: all 0.5s;
+}
+
+.fixedColor {
+  transition: all 1s;
+  background-color: rgba(0, 0, 0, 0.90);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.linkbtn {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 4px 4px 20px rgba(205, 192, 192, 1);
+}
+
+.m-item-active {
+  font-weight: 500 !important;
+}
+
+/*-----------------------------------------
+3. Hero
+-------------------------------------------*/
+#hero {
+  padding: 150px 0;
+  width: 100%;
+  background-image: url("../img/content/about-herostyle-2-.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+/*-----------------------------------------
+4. Services
+-------------------------------------------*/
+/*-----------------------------------------
+8. Footer
+-------------------------------------------*/
+footer {
+  background-color: #283347;
+  padding-top: 75px;
+  padding-bottom: 145px;
+}
+
+.foot-col h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.foot-col ul li {
+  margin-bottom: 20px;
+}
+
+.foot-col ul li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.foot-col-1 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.foot-col-1 a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  float: right;
+}
+
+.foot-col-3, .foot-col-4 {
+  padding-left: 50px;
+}
+
+.new {
+  padding: 5px 10px;
+  background: #1092ee;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+#footer-bottom {
+  padding: 10px 0;
+  background: linear-gradient(101.98deg,
+      rgba(255, 255, 255, 0.8) 1.23%,
+      rgba(255, 255, 255, 0.8) 99.16%),
+    url('../img/content/footer-bottom.png');
+  background-position: bottom !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+#footer-bottom p {
+  margin-bottom: 0;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-footer li {
+  margin-right: 40px;
+  width: 30px;
+  height: 30px;
+  background-color: #1D2A37;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-footer li a {
+  color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  footer {
+    text-align: center;
+    padding-bottom: 35px;
+  }
+
+  .foot-col-1 a {
+    float: none;
+  }
+
+  .foot-col {
+    margin-bottom: 30px;
+  }
+
+  .foot-col-3, .foot-col-4 {
+    padding-left: 0px;
+  }
+
+  .input-send {
+    position: relative;
+    left: 50%;
+    transform: translateX(-51%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section#footer-bottom {
+    text-align: center;
+  }
+
+  .social-footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-footer li {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .int-img-box {
+    text-align: center;
+  }
+}

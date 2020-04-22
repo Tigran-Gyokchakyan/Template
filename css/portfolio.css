@@ -1,0 +1,580 @@
+/*
+	Project Name :
+	Author Company : SpecThemes
+	Project Date: 25 Mar, 2020
+	Template Developer: vsafaryan50@gmail.com
+*/
+/*
+==============================================
+TABLE OF CONTENT
+==============================================
+
+0. Imports
+1. Headings
+2. Header
+3. Hero
+4. Portfolio
+5. Newsletter
+6. Footer
+==============================================
+[END] TABLE OF CONTENT
+==============================================
+*/
+/*-----------------------------------------
+0. Imports
+-------------------------------------------*/
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400i,500,500i,700,700i,900,900i&display=swap');
+/*Default Styles*/
+@import url("default.css");
+
+::-webkit-input-placeholder {
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.25);
+  padding-left: 20px;
+}
+
+:-ms-input-placeholder {
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.25);
+  padding-left: 20px;
+}
+
+::placeholder {
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: rgba(0, 0, 0, 0.25);
+  padding-left: 20px;
+}
+
+/*-----------------------------------------
+1. Headings
+-------------------------------------------*/
+.s-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.025em;
+  color: #1192EE;
+}
+
+.s-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.055em;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.btnstyle {
+  color: #fff;
+  border-radius: 5px;
+  height: 45px;
+}
+
+.demobtn-outline {
+  color: #1192EE;
+  border: 2px solid #1192EE;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-left: 70px;
+}
+
+.demobtn-outline:hover {
+  color: #fff;
+  border: 0px;
+}
+
+.port-btn-style {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  height: 45px;
+  margin-top: 20px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.055em;
+  color: #000000;
+  transition: all 0.3s;
+  margin-bottom: 40px;
+}
+
+.port-btn-style:hover {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+  transition: all 0.3s;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 66px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.hero-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.textcolor-bl {
+  color: #000;
+}
+
+@media screen and (max-width: 400px) {
+  .hero-title {
+    font-size: 40px;
+  }
+}
+
+/*-----------------------------------------
+2. Header
+-------------------------------------------*/
+header {
+  transition: all 1s;
+  width: 100%;
+  z-index: 10;
+}
+
+/*Nav Bar*/
+nav {
+  transition: all 0.5s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  height: 80px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+@media screen and (max-width: 1300px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+.nav-links a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.055em;
+  color: #000000;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    right: 0;
+    top: 80px;
+    height: calc(100vh - 80px);
+    height: -moz-calc(100vh - 80px);
+    height: -webkit-calc(100vh - 80px);
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 999;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+  background-color: #fff;
+}
+
+.fixedColor div nav {
+  height: 80px;
+  transition: all 0.5s;
+}
+
+.fixedColor {
+  transition: all 1s;
+  background-color: rgba(0, 0, 0, 0.90);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.linkbtn {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 4px 4px 20px rgba(205, 192, 192, 1);
+}
+
+.m-item-active {
+  font-weight: 500 !important;
+}
+
+/*-----------------------------------------
+3. Hero
+-------------------------------------------*/
+#hero {
+  padding: 135px 0 75px 0;
+  width: 100%;
+  background-image: linear-gradient(156.74deg, rgba(15, 15, 15, 0.96) 20.49%, rgba(6, 6, 6, 0.58) 99.56%), url("../img/content/about-hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.align-right {
+  text-align: right;
+}
+
+/*-----------------------------------------
+4. Integrity
+-------------------------------------------*/
+#portfolio {
+  padding: 100px 0;
+}
+
+.acvtive-link {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  border-radius: 5px;
+}
+
+.port-link {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 1.5s;
+  text-transform: uppercase;
+}
+
+.port-link.active {
+  color: #000;
+}
+
+.port-link:hover {
+  color: #000000;
+  transition: all 1.5s;
+}
+
+#customersCats {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: right;
+}
+
+.port-ite-2, .port-ite {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.port-ite-2 {
+  height: 800px;
+}
+
+.port-ite {
+  height: 380px;
+  margin-bottom: 40px;
+}
+
+.port-ite:hover .overlay-portfolio, .port-ite-2:hover .overlay-portfolio {
+  opacity: 1;
+  transition: all 1s;
+}
+
+.port-ite-2>.overlay-portfolio {
+  height: 800px;
+}
+
+.port-ite>.overlay-portfolio {
+  height: 380px;
+}
+
+.overlay-portfolio {
+  background: rgba(17, 146, 238, 0.7);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.overlay-portfolio a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.055em;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.overlay-portfolio a:before {
+  border-bottom: 3px solid #fff;
+  width: 40%;
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tabs-boxs {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.port-viwe a {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  #customersCats {
+    float: none;
+    justify-content: center;
+  }
+
+  .port-ite-2 {
+    margin-bottom: 40px;
+  }
+
+  .port-viwe {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+/*-----------------------------------------
+5. Newsletter
+-------------------------------------------*/
+#news {
+  padding: 75px 0;
+  background: linear-gradient(101.24deg, rgba(29, 42, 55, 0.94) 1.5%, rgba(29, 42, 55, 0.86) 99.75%), url('../img/content/newsletter.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.025em;
+  color: #FFFFFF;
+}
+
+.news-form {
+  margin-top: 70px;
+}
+
+.news-btn-send {
+  margin-right: 20px;
+}
+
+.news-input {
+  color: #fff !important;
+  height: 56px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-right: 0;
+}
+
+.news-input:focus {
+  color: #fff !important;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-right: 0;
+  background-color: transparent !important;
+}
+
+.send-req {
+  width: 217px;
+  height: 56px;
+  border-radius: 0px 3px 3px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .send-req span {
+    display: none;
+  }
+
+  .send-req {
+    width: 60px;
+  }
+
+  .news-btn-send {
+    margin-right: 0px;
+  }
+}
+
+/*-----------------------------------------
+6. Footer
+-------------------------------------------*/
+footer {
+  padding-top: 140px;
+  background: #1D2A37;
+}
+
+.foot-col-1 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.social-footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.social-footer li {
+  margin-right: 40px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-footer li a {
+  color: #1D2A37;
+}
+
+.footer-col-clone h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0.095em;
+  color: #FFFFFF;
+}
+
+.footer-col-clone ul li {
+  margin-bottom: 20px;
+}
+
+.footer-col-clone ul li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.foot-bottom p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .social-footer {
+    justify-content: center;
+  }
+
+  .foot-bottom p {
+    margin-top: 35px;
+  }
+}
