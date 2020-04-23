@@ -498,7 +498,79 @@ input.form-control {
       float: left;
   }
 }
-
+/*post item*/
+.fs-16{
+  font-size: 16px;
+}
+.fs-18{
+  font-size: 18px;
+}
+.blue{
+  color: #1192EE;
+}
+.post-bold{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.post-data{
+  width: 70%;
+  margin-top: 80px;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.comment{
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+}
+.com-img{
+  width: 20%;
+}
+.com-content{
+  padding-left: 15px;
+  width: 80%;
+}
+.com-content h3{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #1192EE;
+}
+.com-content span{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #8A97A5;
+}
+.com-content p{
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #8A97A5;
+}
+.related{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #1192EE;
+  margin-bottom: 50px;
+}
+.reated-item{
+  margin-bottom: 50px;
+}
+.mr{
+  margin: 0;
+}
 /*-----------------------------------------
 8. Newsletter
 -------------------------------------------*/
