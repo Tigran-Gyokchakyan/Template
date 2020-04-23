@@ -370,11 +370,46 @@ nav {
   background: #F9F9F9;
 }
 
-button.btn.btn-link.collapsed {
-  border: 0.5px solid #1192EE;
-  border-radius: 50%;
-  text-decoration: none;
+.card-body {
+  padding-left: 40px;
+}
+
+.btn-link.collapsed {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  width: 100%;
+  text-align: left;
+}
+
+.btn-link span {
   float: right;
+  width: 30px;
+  height: 30px;
+  border: 0.641026px solid #1192EE;
+  text-align: center;
+  color: #1192ee;
+  border-radius: 50%;
+}
+
+.btn-link {
+  width: 100%;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.025em;
+  color: #1192EE;
+}
+
+.btn-link:hover {
+  font-weight: bold;
+  color: #1192EE;
+  text-decoration: none;
 }
 
 .card {
@@ -387,9 +422,86 @@ button.btn.btn-link.collapsed {
   border: 0;
 }
 
+.fs-16 {
+  font-size: 16px;
+}
+
+.read {
+  text-align: right;
+}
+
+.read a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.025em;
+  color: #1192EE;
+}
+
+.faq-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-left: 15px;
+}
+
+.faq-more {
+  text-align: right;
+}
+
+.faq-more a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.055em;
+  color: #1192EE;
+}
+
 /*-----------------------------------------
 6. Contact
 -------------------------------------------*/
+#contact {
+  padding: 100px 0;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.form-control {
+  width: 90%;
+  height: 42px;
+  background: #F9F9F9;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 40px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #F9F9F9;
+  border-color: transparent;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+
+.contact-box {
+  position: relative;
+}
+
+.contact-form {
+  margin-bottom: 40px;
+}
+
+.sendbtn:hover {
+  color: #fff;
+}
+
 /*-----------------------------------------
 7. Newsletter
 -------------------------------------------*/

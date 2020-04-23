@@ -81,9 +81,11 @@ TABLE OF CONTENT
   letter-spacing: 0.055em;
   color: rgba(0, 0, 0, 0.5)
 }
+
 .fs-16 {
   font-size: 16px;
 }
+
 .btnstyle {
   color: #fff;
   border-radius: 5px;
@@ -307,11 +309,11 @@ nav {
 /*-----------------------------------------
 4. Posts
 -------------------------------------------*/
-#posts{
+#posts {
   padding: 100px 0;
 }
 
-.post-cat{
+.post-cat {
   margin-top: 15px;
   font-style: normal;
   font-weight: bold;
@@ -320,7 +322,8 @@ nav {
   letter-spacing: 0.05em;
   color: #1192EE;
 }
-.post-title a{
+
+.post-title a {
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -328,13 +331,16 @@ nav {
   letter-spacing: 0.03em;
   color: #000000;
 }
-.author{
+
+.author {
   margin-top: 30px;
 }
-.author img{
+
+.author img {
   margin-right: 10px;
 }
-.author span{
+
+.author span {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -343,7 +349,8 @@ nav {
   color: #8A97A5;
   margin-right: 10px;
 }
-.author a{
+
+.author a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -351,17 +358,20 @@ nav {
   letter-spacing: 0.05em;
   color: #1192EE;
 }
-.post-content{
+
+.post-content {
   width: 50%;
   padding-top: 25px;
   border-top: 0.5px solid rgba(0, 0, 0, 0.2);
 }
-.post-btn{
-    margin-left: 0;
-    float: right;
-    margin-bottom: 150px;
+
+.post-btn {
+  margin-left: 0;
+  float: right;
+  margin-bottom: 150px;
 }
-.data{
+
+.data {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -370,7 +380,8 @@ nav {
   color: #8A97A5;
   margin-right: 20px;
 }
-.comment{
+
+.comment {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -378,7 +389,8 @@ nav {
   letter-spacing: 0.05em;
   color: #8A97A5;
 }
-.category{
+
+.category {
   margin-top: 80px;
   margin-bottom: 30px;
   font-style: normal;
@@ -388,12 +400,14 @@ nav {
   letter-spacing: 0.05em;
   color: #1192EE;
 }
+
 .cat-item {
   margin-top: 10px;
   padding-bottom: 10px;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
 }
-.cat-item a{
+
+.cat-item a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -401,7 +415,8 @@ nav {
   letter-spacing: 0.05em;
   color: #000000;
 }
-.cat-item span{
+
+.cat-item span {
   font-style: normal;
   font-weight: bold;
   font-size: 10.3158px;
@@ -416,7 +431,8 @@ nav {
   height: 20px;
   line-height: 20px;
 }
-.tags span{
+
+.tags span {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -428,11 +444,13 @@ nav {
   margin-right: 10px;
   line-height: 55px;
 }
-.pag{
+
+.pag {
   display: flex;
   justify-content: center;
 }
-.page-link{
+
+.page-link {
   width: 30px;
   border: 0;
   color: #000;
@@ -443,17 +461,20 @@ nav {
   letter-spacing: 0.05em;
   margin-left: 15px;
 }
+
 ul.pagination.pagination-sm {
-    border-top: 1px solid #ccc;
-    padding-top: 15px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
 }
-.page-link:hover{
+
+.page-link:hover {
   color: #FFFFFF;
   background: #1192EE;
   border-radius: 100px !important;
   text-align: center;
 }
-.link-active{
+
+.link-active {
   color: #FFFFFF;
   background: #1192EE;
   border-radius: 100px !important;
@@ -462,27 +483,30 @@ ul.pagination.pagination-sm {
 }
 
 .has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-    right: 25px;
-    top: 0;
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  right: 25px;
+  top: 0;
 }
+
 input.form-control {
-    background: #F9F9F9;
-    border-radius: 10px;
-    border: 0;
+  background: #F9F9F9;
+  border-radius: 10px;
+  border: 0;
 }
-.blog-nav{
-   justify-content: center;
-   margin-bottom: 50px;
+
+.blog-nav {
+  justify-content: center;
+  margin-bottom: 50px;
 }
+
 .acvtive-link {
   font-style: normal;
   font-weight: 900;
@@ -506,48 +530,57 @@ input.form-control {
 .port-link.active {
   color: #FFFFFF;
   background: #1192EE;
-border-radius: 5px
+  border-radius: 5px
 }
 
 .port-link:hover {
   color: #000000;
   transition: all 1.5s;
 }
+
 /*post item*/
-.fs-16{
+.fs-16 {
   font-size: 16px;
 }
-.fs-18{
+
+.fs-18 {
   font-size: 18px;
 }
-.blue{
+
+.blue {
   color: #1192EE;
 }
-.post-bold{
+
+.post-bold {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.post-data{
+
+.post-data {
   width: 70%;
   margin-top: 80px;
   padding-bottom: 40px;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
 }
-.comment{
+
+.comment {
   margin-top: 20px;
   margin-bottom: 100px;
   width: 70%;
   display: flex;
   flex-direction: row;
 }
-.com-img{
+
+.com-img {
   width: 20%;
 }
-.com-content{
+
+.com-content {
   padding-left: 15px;
   width: 80%;
 }
-.com-content h3{
+
+.com-content h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -555,7 +588,8 @@ border-radius: 5px
   letter-spacing: 0.05em;
   color: #1192EE;
 }
-.com-content span{
+
+.com-content span {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -563,7 +597,8 @@ border-radius: 5px
   letter-spacing: 0.05em;
   color: #8A97A5;
 }
-.com-content p{
+
+.com-content p {
   font-style: italic;
   font-weight: 500;
   font-size: 14px;
@@ -571,7 +606,8 @@ border-radius: 5px
   letter-spacing: 0.05em;
   color: #8A97A5;
 }
-.related{
+
+.related {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -580,16 +616,19 @@ border-radius: 5px
   color: #1192EE;
   margin-bottom: 50px;
 }
-.reated-item{
+
+.reated-item {
   margin-bottom: 50px;
 }
-.mr{
+
+.mr {
   margin: 0;
 }
+
 @media screen and (max-width: 768px) {
-  .post-btn{
-      margin-left: 0;
-      float: left;
+  .post-btn {
+    margin-left: 0;
+    float: left;
   }
 }
 
@@ -603,7 +642,6 @@ border-radius: 5px
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 
 .contact-title {
   font-style: normal;
@@ -643,7 +681,8 @@ border-radius: 5px
   color: #FFFFFF;
   transition: all 0.3s;
 }
-.h-5-btn-2:hover{
+
+.h-5-btn-2:hover {
   color: #2E3538;
   border: 2px solid #2E3538;
   transition: all 0.3s;
@@ -790,6 +829,7 @@ footer {
     margin-right: 10px;
     margin-top: 10px;
   }
+
   .int-img-box {
     text-align: center;
   }

@@ -13,7 +13,12 @@ TABLE OF CONTENT
 1. Headings
 2. Header
 3. Hero
-8. Footer
+4. About
+5. Video
+6. Contact
+7. Map
+8. Contact-Get
+9. Footer
 ==============================================
 [END] TABLE OF CONTENT
 ==============================================
@@ -305,10 +310,273 @@ nav {
 }
 
 /*-----------------------------------------
-4. Services
+4. About
 -------------------------------------------*/
+.aboutinfo {
+  text-align: center;
+}
+
+.infobox {
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 4px rgba(206, 203, 203, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.infobox h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.infobox p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutinfo h3 {
+    font-size: 22px;
+  }
+}
+
 /*-----------------------------------------
-8. Footer
+5. Video
+-------------------------------------------*/
+#player {
+  background-image: linear-gradient(268.95deg, #f9f9f9 0.34%, rgba(255, 255, 255, 0) 99.58%, rgba(255, 255, 255, 0.87) 101%),
+    url("../img/content/h-4-about-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.player-text h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #1192EE;
+}
+
+.player-text h2 {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.player-text p {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #8A97A5;
+}
+
+.player-text a {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #1192EE;
+  float: right;
+}
+
+.video-element {
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+
+.video-element iframe,
+.video-element__poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-element__poster {
+  background-image: url("../img/content/h-4-video-cover.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  cursor: pointer;
+  animation: playbtn 2s ease;
+  animation-iteration-count: infinite;
+  transform-origin: 0% 0%;
+}
+
+@keyframes playbtn {
+  0% {
+    opacity: 0.8;
+    transform: scale(1) translate(-50%, -50%);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2) translate(-50%, -50%);
+  }
+
+  100% {
+    opacity: 0.8;
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #player {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .player-text {
+    margin-top: 40px;
+  }
+
+  .player-text a {
+    float: none;
+  }
+
+  .video-element {
+    margin-top: 40px;
+  }
+}
+
+/*-----------------------------------------
+6. Contact
+-------------------------------------------*/
+#contact {
+  padding: 100px 0;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.form-control {
+  width: 90%;
+  height: 42px;
+  background: #F9F9F9;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 40px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #F9F9F9;
+  border-color: transparent;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+
+.contact-box {
+  position: relative;
+}
+
+.contact-form {
+  margin-bottom: 40px;
+}
+
+.sendbtn:hover {
+  color: #fff;
+}
+
+iframe {
+  z-index: -1;
+}
+
+/*-----------------------------------------
+8. Contact-Get
+-------------------------------------------*/
+#contact-get {
+  padding: 140px 0 60px 0;
+  background: url("../img/content/h-5-contact-layer.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -330px;
+}
+
+.contact-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+.contact-info {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.contact-btn {
+  float: right;
+  margin-top: 50px;
+}
+
+.h-5-btn-2 {
+  padding: 17px 44px;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  transition: all 0.3s;
+}
+
+.h-5-btn-2:hover {
+  color: #2E3538;
+  border: 2px solid #2E3538;
+  transition: all 0.3s;
+}
+
+/*-----------------------------------------
+9. Footer
 -------------------------------------------*/
 footer {
   background-color: #283347;

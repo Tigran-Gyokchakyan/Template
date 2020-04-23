@@ -83,9 +83,11 @@ TABLE OF CONTENT
   letter-spacing: 0.055em;
   color: rgba(0, 0, 0, 0.5)
 }
+
 .fs-16 {
   font-size: 16px;
 }
+
 .btnstyle {
   color: #fff;
   border-radius: 5px;
@@ -316,6 +318,7 @@ nav {
   background-repeat: no-repeat;
   padding: 100px 0;
 }
+
 .services-item {
   padding: 50px 55px;
   height: 375px;
@@ -364,10 +367,12 @@ nav {
 .cheked-item h2, .cheked-item a, .cheked-item p {
   color: #FFFFFF;
 }
-.title-box{
+
+.title-box {
   text-align: center;
   margin-bottom: 50px;
 }
+
 @media only screen and (max-width: 992px) {
   .services-box {
     margin-bottom: 0px;
@@ -465,14 +470,16 @@ nav {
   margin-right: 0 !important;
 }
 
-.port-viwe{
+.port-viwe {
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   align-items: flex-end;
 }
-.port-viwe button{
-    margin-left: 0;
+
+.port-viwe button {
+  margin-left: 0;
 }
+
 @media only screen and (max-width: 767px) {
   #customersCats {
     float: none;
@@ -485,8 +492,6 @@ nav {
     text-align: center;
   }
 }
-
-
 
 /*-----------------------------------------
 6. About
@@ -701,8 +706,6 @@ nav {
   }
 }
 
-
-
 /*-----------------------------------------
 7. Contact
 -------------------------------------------*/
@@ -752,11 +755,13 @@ nav {
   color: #FFFFFF;
   transition: all 0.3s;
 }
-.h-5-btn-2:hover{
+
+.h-5-btn-2:hover {
   color: #2E3538;
   border: 2px solid #2E3538;
   transition: all 0.3s;
 }
+
 /*-----------------------------------------
 8. Footer
 -------------------------------------------*/
@@ -898,6 +903,7 @@ footer {
     margin-right: 10px;
     margin-top: 10px;
   }
+
   .int-img-box {
     text-align: center;
   }

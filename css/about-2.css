@@ -633,7 +633,6 @@ button.send-email {
   z-index: 3;
 }
 
-
 /*-----------------------------------------
 9. Footer
 -------------------------------------------*/
@@ -775,6 +774,7 @@ footer {
     margin-right: 10px;
     margin-top: 10px;
   }
+
   .int-img-box {
     text-align: center;
   }

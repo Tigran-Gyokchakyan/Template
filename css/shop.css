@@ -307,21 +307,25 @@ nav {
 /*-----------------------------------------
 4. Producs
 -------------------------------------------*/
-#products{
+#products {
   padding: 50px 0;
 }
-.product-item{
+
+.product-item {
   margin: 30px 0;
   position: relative;
 }
-.product-item img{
+
+.product-item img {
   width: 100%;
   margin-bottom: 20px;
 }
+
 .product-item h3 {
   text-align: right;
 }
-.product-item h3 a{
+
+.product-item h3 a {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -331,7 +335,8 @@ nav {
   float: left;
   margin-top: 5px;
 }
-.product-item h3 .price{
+
+.product-item h3 .price {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -341,7 +346,8 @@ nav {
   margin-top: 10px;
   margin-right: 30px;
 }
-.sale{
+
+.sale {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -349,7 +355,8 @@ nav {
   letter-spacing: 0.05em;
   color: #DADADA;
 }
-.picsale{
+
+.picsale {
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
@@ -360,7 +367,8 @@ nav {
   right: 20px;
   bottom: 120px;
 }
-.product-item p a{
+
+.product-item p a {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -368,20 +376,25 @@ nav {
   letter-spacing: 0.05em;
   color: #1192EE;
 }
-.baner{
-  margin:30px 0;
+
+.baner {
+  margin: 30px 0;
 }
-.baner-img{
+
+.baner-img {
   padding-right: 0;
 }
-.baner-img img{
+
+.baner-img img {
   width: 100%;
 }
-.baner-text{
+
+.baner-text {
   padding-top: 50px;
   border: 1px solid rgba(17, 146, 238, 0.3);
 }
-.newtext{
+
+.newtext {
   font-style: normal;
   font-weight: 900;
   font-size: 76px;
@@ -389,7 +402,8 @@ nav {
   letter-spacing: 0.07em;
   color: #1192EE;
 }
-.baner-title{
+
+.baner-title {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -399,10 +413,12 @@ nav {
   position: relative;
   top: -25px;
 }
-.w-70{
-   width: 70%;
+
+.w-70 {
+  width: 70%;
 }
-.cat{
+
+.cat {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -412,7 +428,8 @@ nav {
   position: relative;
   left: -135px;
 }
-.baner-price{
+
+.baner-price {
   background: #F8FAFF;
   font-style: normal;
   font-weight: bold;
@@ -425,7 +442,8 @@ nav {
   right: 0;
   bottom: 0;
 }
-.result{
+
+.result {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -433,31 +451,37 @@ nav {
   letter-spacing: 0.05em;
   color: #000000;
 }
-button:focus{
+
+button:focus {
   outline: none !important;
   box-shadow: none !important;
 }
+
 button#dropdownMenuButton {
-    background-color: red;
-    background: #F9F9F9;
-    border-radius: 10px;
-    height: 50px;
-    width: 300px;
-    text-align: left;
+  background-color: red;
+  background: #F9F9F9;
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
+  text-align: left;
 }
+
 .dropdown {
-    text-align: right;
-    margin-top: -15px;
+  text-align: right;
+  margin-top: -15px;
 }
+
 .dropdown-toggle::after {
-    float: right;
-    margin-top: 10px;
+  float: right;
+  margin-top: 10px;
 }
-.pag{
+
+.pag {
   display: flex;
   justify-content: center;
 }
-.page-link{
+
+.page-link {
   width: 30px;
   border: 0;
   color: #000;
@@ -468,42 +492,49 @@ button#dropdownMenuButton {
   letter-spacing: 0.05em;
   margin-left: 15px;
 }
+
 ul.pagination.pagination-sm {
-    border-top: 1px solid #ccc;
-    padding-top: 15px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
 }
-.page-link:hover{
+
+.page-link:hover {
   color: #FFFFFF;
   background: #1192EE;
   border-radius: 100px !important;
   text-align: center;
 }
-.link-active{
+
+.link-active {
   color: #FFFFFF;
   background: #1192EE;
   border-radius: 100px !important;
   text-align: center;
   width: 40px !important;
 }
+
 @media screen and (max-width: 992px) {
   .baner-text {
-      padding-top: 5px;
+    padding-top: 5px;
   }
 }
+
 @media screen and (max-width: 886px) {
-  .myfl{
-      display: flex;
-      flex-direction: column;
+  .myfl {
+    display: flex;
+    flex-direction: column;
   }
-  .baner-img, .baner-text{ */
-    flex: 0 0 100%;
+
+  .baner-img, .baner-text {
+    */ flex: 0 0 100%;
     max-width: 100%;
   }
 }
+
 @media screen and (max-width:767px) {
   .dropdown {
-      text-align: left;
-      margin-top: 0;
+    text-align: left;
+    margin-top: 0;
   }
 }
 
