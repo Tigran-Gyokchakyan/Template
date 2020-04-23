@@ -247,4 +247,5 @@ if (document.getElementById('player') !== null) {
 }
 
 
-$('.collapse').collapse()
+$('.collapse').collapse();
+$('.dropdown-toggle').dropdown();
