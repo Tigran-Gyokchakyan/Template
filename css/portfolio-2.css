@@ -351,7 +351,15 @@ nav {
   font-size: 20px;
   line-height: 20px;
 }
+@media only screen and (max-width:992px) {
 
+  .category {
+    margin-top: 10px;
+  }
+  .category, .p-title {
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 767px) {
   #customersCats {
     float: none;

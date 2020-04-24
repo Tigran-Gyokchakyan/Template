@@ -3,8 +3,6 @@
 	Author Company : SpecThemes
 	Project Date: 25 Mar, 2020
 	Template Developer: vsafaryan50@gmail.com
-*/
-/*
 ==============================================
 TABLE OF CONTENT
 ==============================================
@@ -147,7 +145,7 @@ $(document).ready(function() {
     margin: 0,
     nav: true,
     dots: false,
-    navText: ["<img src='img/icon/next-owl.png'>", "<img src='img/icon/prev-owl.png'>"]
+    navText: ["<img src='img/icon/next-owl.png' alt='next'>", "<img src='img/icon/prev-owl.png' alt='prev'>"]
     /*navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']*/
   })
 });

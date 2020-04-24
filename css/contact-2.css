@@ -516,6 +516,8 @@ nav {
 
 iframe {
   z-index: -1;
+  width: 100%;
+  border: 0px;
 }
 
 /*-----------------------------------------
@@ -528,6 +530,7 @@ iframe {
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -330px;
+  position: relative;
 }
 
 .contact-title {
